@@ -8,32 +8,44 @@
 body {
     background-color: var(--my-grey);
 }
-.nav-link.active{
+
+.nav-link.active {
     background-color: var(--my-purple) !important;
 }
-.btn-danger{
-    background-color:  var(--my-red)!important;
+
+.btn-danger {
+    background-color: var(--my-red) !important;
     border: none;
     color: white;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--my-purple);
     border: none;
     color: white;
 }
+
 /* class style */
 .text-purple {
     color: var(--my-purple);
 }
+
 .bg-purple {
     background-color: var(--my-purple);
 }
-.bg-red{
+
+.bg-red {
     background-color: var(--my-red);
 }
-.text-red{
+
+.text-red {
     color: var(--my-red);
 }
+
+.just-mobile {
+    display: none;
+}
+
 /* component style */
 .bottom-nav {
     height: 150%;
@@ -41,4 +53,19 @@ body {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+/* responsive */
+@media screen and (max-width:991px) {
+    .just-mobile {
+        display: block;
+    }
+
+    .bottom-nav {
+        height: 135%;
+    }
+
+    p.just-mobile {
+        font-size: 10px;
+    }
 }
