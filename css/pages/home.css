@@ -1,18 +1,92 @@
-.home-card{
+.home-card {
     border-radius: 20px;
     height: 100%;
 }
-.badge-wrapper{
+
+.badge-wrapper {
     position: relative;
 }
-.home-card .badge-wrapper .badge{
-    position: absolute; 
+
+.home-card .badge-wrapper .badge {
+    position: absolute;
     top: -39px;
 }
-.home-card .card-body{
+
+.home-card .card-body {
     padding-top: 75px;
     padding-bottom: 55px;
 }
-.home-card .card-body h3{
+
+.home-card .card-body h3 {
     font-size: 25px;
+}
+
+/* section news and event */
+.card-news {
+    background-color: transparent;
+    border: none;
+    position: relative;
+
+}
+
+.card-news .icon-arrow {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+/* faq section */
+.my-avatar img:nth-child(1) {
+    width: 186px;
+    height: 186px;
+    position: absolute;
+    aspect-ratio: 1;
+    left: -50px;
+    top: 20px;
+}
+
+.my-avatar img:nth-child(2) {
+    width: 186px;
+    height: 186px;
+    aspect-ratio: 1;
+    margin-inline: 80px;
+    z-index: 9;
+}
+
+.my-avatar img:nth-child(3) {
+    width: 186px;
+    position: absolute;
+    height: 186px;
+    aspect-ratio: 1;
+    right: -50px;
+    top: 20px;
+}
+
+/* mobile */
+@media screen and (max-width:991px) {
+    .just-desktop {
+        display: none;
+    }
+
+    .card-news {
+        background-color: #D9D9D9;
+        padding: 20px 15px;
+    }
+
+    .card-news .icon-arrow {
+        top: 25px;
+        right: 25px;
+    }
+
+    /* faq section */
+    .my-avatar img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .my-avatar img:nth-child(2) {
+        margin-inline: 15px;
+    }
 }
