@@ -1,0 +1,19 @@
+.my-jumbotron h2 {
+    font-weight: lighter;
+}
+
+/* mobile */
+@media screen and (max-width:991px) {
+    .my-jumbotron h5 {
+        font-size: 14px;
+    }
+
+    .my-jumbotron h2 {
+        font-size: 16px;
+    }
+
+    .core-belief .card {
+        padding: 0 !important;
+        background-color: transparent;
+    }
+}

@@ -19,6 +19,15 @@ body {
     color: white;
 }
 
+.btn-outline-danger {
+    border: 1px solid var(--my-red);
+    color: var(--my-red);
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--my-red);
+}
+
 .btn-primary {
     background-color: var(--my-purple);
     border: none;
@@ -57,6 +66,10 @@ body {
 
 /* responsive */
 @media screen and (max-width:991px) {
+    .just-desktop {
+        display: none;
+    }
+
     .just-mobile {
         display: block;
     }
