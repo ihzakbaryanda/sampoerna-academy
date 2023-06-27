@@ -7,3 +7,5 @@
 .accordion-button:not(.collapsed)::after {
     filter: grayscale(1) brightness(100);
 }
+
+/* button */
