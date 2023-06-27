@@ -1,0 +1,18 @@
+.home-card{
+    border-radius: 20px;
+    height: 100%;
+}
+.badge-wrapper{
+    position: relative;
+}
+.home-card .badge-wrapper .badge{
+    position: absolute; 
+    top: -39px;
+}
+.home-card .card-body{
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+.home-card .card-body h3{
+    font-size: 25px;
+}

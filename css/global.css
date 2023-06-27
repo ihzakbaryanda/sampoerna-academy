@@ -1,0 +1,30 @@
+:root {
+    --my-purple: #292f78;
+    --my-red: #ae4029;
+    --my-grey: #f1f2f2;
+}
+
+/* reset */
+body {
+    background-color: var(--my-grey);
+}
+
+/* class style */
+.text-purple {
+    color: var(--my-purple);
+}
+.bg-purple {
+    background-color: var(--my-purple);
+}
+.bg-red{
+    background-color: var(--my-red);
+}
+
+/* component style */
+.bottom-nav {
+    height: 150%;
+    background-color: var(--my-purple);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
