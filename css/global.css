@@ -8,7 +8,19 @@
 body {
     background-color: var(--my-grey);
 }
-
+.nav-link.active{
+    background-color: var(--my-purple) !important;
+}
+.btn-danger{
+    background-color:  var(--my-red)!important;
+    border: none;
+    color: white;
+}
+.btn-primary{
+    background-color: var(--my-purple);
+    border: none;
+    color: white;
+}
 /* class style */
 .text-purple {
     color: var(--my-purple);
@@ -19,7 +31,9 @@ body {
 .bg-red{
     background-color: var(--my-red);
 }
-
+.text-red{
+    color: var(--my-red);
+}
 /* component style */
 .bottom-nav {
     height: 150%;

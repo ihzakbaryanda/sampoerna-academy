@@ -8,9 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css" />
     <!-- css -->
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/pages/home.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -172,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mx-auto mt-3">
-                    <button class="btn bg-purple text-white w-100">see more</button>
+                    <button class="btn btn-primary text-white w-100">see more</button>
                 </div>
             </div>
         </section>
@@ -288,12 +292,12 @@
                 </div>
             </div>
             <div class="col-lg-4 mt-4 mx-auto">
-                <button class="btn bg-purple w-100 text-white ">See More</button>
+                <button class="btn btn-primary w-100 text-white ">See More</button>
             </div>
         </section>
 
         <!-- section-grade-at-sampoerna -->
-        <div class="container " style="margin-top: 150px;">
+        <!-- <div class="container " style="margin-top: 150px;">
             <div>
                 <h5>Campuses & Grade</h5>
                 <h1 class="text-purple">Grade at Sampoerna Academy</h1>
@@ -332,14 +336,193 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- end -->
 
+        <!-- section school calender -->
+        <section class="bg-purple w-100 text-white mt-5">
+            <div class="container p-5">
+                <div>
+                    <h5>School Calendar</h5>
+                    <h1 class="" style="margin-bottom: 100px;">Sampoerna Academy 2022 - 2023</h1>
+                </div>
+                <div class="row pe-3" style="max-width: 900px;">
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">JAN</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">FEB</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">MAR</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">APR</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">MAY</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">JUN</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">JUL</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">AUG</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">SEP</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">OCT</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">NOV</div>
+                    </div>
+                    <div class="col-4 mb-2 col-md-3 pe-0">
+                        <div class="card bg-white text-center py-2 text-red">DEC</div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-6 mb-2 pe-0" style="width: fit-content;">
+                        <button class="btn btn-danger text-white "
+                            style="font-size: 12px;white-space: nowrap;">Download,
+                            Edit & Print Calendar
+                            Here</button>
+                    </div>
+                    <div class="col-lg-6 mb-2" style="width: fit-content;">
+                        <button class="btn text-white btn-danger" style="font-size: 12px;white-space: nowrap;">View
+                            School
+                            Calendar
+                            Here</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- section News&Event -->
+        <section>
+            <div class="container mt-5">
+                <div>
+                    <h1 class="text-purple">News & Event</h1>
+                </div>
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Profile</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <!-- news -->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="card card-news"
+                            style="background-color: transparent; border: none;position: relative;">
+                            <img src="assets/icon/ArrowSquareOut.svg"
+                                style="width: 32px; height: 32px;position: absolute; top: -5px; right: -5px;" alt="">
+
+                            <div class="row">
+                                <div class="col-lg-6 mb-3">
+                                    <img class="w-100" src="assets/image/news.jpg" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <h6 class="text-red"><b>Phoenix Bake</b> | 06 December 2022</h6>
+                                    <h2>SA Surabaya Received a Grade A from the National Library - Surabaya, December 2,
+                                        2021</h2>
+                                    <p>The library of Sampoerna Academy Surabaya international school has been awarded a
+                                        Grade A for its excellent facilities. The grade was awarded based on an
+                                        assessment to several essential areas: the collection owned, infrastructure and
+                                        facilities, services, personnel, operations and management, and other supporting
+                                        components. The accreditation was conducted by the team from the National
+                                        Library of the Republic of Indonesia and </p>
+                                </div>
+                            </div>
+                            <!-- show on desktop -->
+                            <div class="row just-desktop">
+                                <div class="col-lg-6">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-3">
+                                                    <img class="w-100" src="assets/image/news.jpg" alt="">
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="text-red"><b>Phoenix Bake</b> | 06...</h6>
+                                                        <img src="assets/icon/ArrowSquareOut.svg"
+                                                            style="width: 20px; height: 20px;" alt="">
+                                                    </div>
+                                                    <h5>SA Surabaya Received a Grade A from the National Library -
+                                                        Surabaya,
+                                                        December 2,
+                                                        2021</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-3">
+                                                    <img class="w-100" src="assets/image/news.jpg" alt="">
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <div class="d-flex justify-content-between">
+                                                        <h6 class="text-red"><b>Phoenix Bake</b> | 06...</h6>
+                                                        <img src="assets/icon/ArrowSquareOut.svg"
+                                                            style="width: 20px; height: 20px;" alt="">
+                                                    </div>
+                                                    <h5>SA Surabaya Received a Grade A from the National Library -
+                                                        Surabaya,
+                                                        December 2,
+                                                        2021</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- event -->
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">...</div>
+                </div>
+            </div>
+        </section>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+    <script src="assets/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slick-carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
+            });
+        });
+    </script>
 </body>
 </body>
 
