@@ -105,6 +105,12 @@
     opacity: 1;
 }
 
+.slick-resp-nav .slick-prev:before,
+.slick-resp-nav .slick-next:before {
+    color: var(--my-purple);
+    font-size: 35px;
+}
+
 .dot-pos {
     position: absolute;
     bottom: 303px;
@@ -128,6 +134,20 @@
 @media screen and (max-width:991px) {
     .just-desktop {
         display: none;
+    }
+
+    .slick-respon {
+        padding-inline: 30px;
+    }
+
+    .slick-respon .card {
+        width: 100px;
+    }
+
+    .slick-resp-nav .slick-prev:before,
+    .slick-resp-nav .slick-next:before {
+        color: var(--my-purple);
+        font-size: 25px;
     }
 
     .arr-pos {
