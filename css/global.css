@@ -55,6 +55,10 @@ body {
     display: none;
 }
 
+.fs-12 {
+    font-size: 12px;
+}
+
 /* component style */
 .bottom-nav {
     height: 150%;
