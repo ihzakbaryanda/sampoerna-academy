@@ -64,10 +64,34 @@
     top: 20px;
 }
 
+.header-home {
+    height: 130px;
+}
+
+.header-home p {
+    margin-bottom: 3px;
+}
+
+.header-image {
+    height: 600px;
+    object-fit: cover;
+}
+
+.mask {
+    background: linear-gradient(to top, black, transparent);
+    height: 280px;
+    position: absolute;
+    bottom: 0;
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
     .just-desktop {
         display: none;
+    }
+
+    .header-home {
+        height: 120px;
     }
 
     .card-news {
