@@ -105,6 +105,25 @@
     opacity: 1;
 }
 
+.dot-pos {
+    position: absolute;
+    bottom: 303px;
+    left: 52px;
+}
+
+.arr-pos {
+    position: absolute;
+    right: 0;
+    bottom: 160px;
+    right: 190px;
+    width: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 50px;
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
     .just-desktop {
