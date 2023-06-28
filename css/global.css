@@ -67,7 +67,7 @@ body {
 /* responsive */
 @media screen and (max-width:991px) {
     .just-desktop {
-        display: none;
+        display: none !important;
     }
 
     .just-mobile {
