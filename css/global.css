@@ -4,6 +4,10 @@
     --my-grey: #f1f2f2;
 }
 
+* {
+    font-family: opensans;
+}
+
 /* reset */
 body {
     background-color: var(--my-grey);
@@ -42,6 +46,38 @@ body {
 
 .bg-purple {
     background-color: var(--my-purple);
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.hr-80 {
+    margin-block: 80px;
 }
 
 .bg-red {
@@ -91,6 +127,10 @@ body {
 
 /* responsive */
 @media screen and (max-width:991px) {
+    .mt-150 {
+        margin-top: 100px;
+    }
+
     .just-desktop {
         display: none !important;
     }
@@ -106,4 +146,10 @@ body {
     p.just-mobile {
         font-size: 10px;
     }
+}
+
+/* fonts */
+@font-face {
+    font-family: opensans;
+    src: url(../assets/font/OpenSans-VariableFont_wdth\,wght.ttf);
 }

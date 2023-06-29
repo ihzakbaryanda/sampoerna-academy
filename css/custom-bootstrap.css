@@ -8,8 +8,19 @@
     filter: grayscale(1) brightness(100);
 }
 
-/* Background */
+/* font reset */
+h1 {
+    font-size: 35px;
+}
 
+/* navbar reset */
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: var(--my-red);
+}
+
+/* end navbar reset */
+
+/* Background */
 .bg-danger {
     background-color: #AE4029 !important;
 }
