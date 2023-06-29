@@ -73,7 +73,7 @@
 }
 
 .header-image {
-    height: 600px;
+    height: 375px !important;
     object-fit: cover;
 }
 
@@ -134,6 +134,10 @@
     font-size: 50px;
 }
 
+.card-title {
+    font-size: 35px;
+}
+
 /* desktop */
 @media screen and (min-width:992px) {
     .slick-respon .card {
@@ -145,6 +149,11 @@
 @media screen and (max-width:991px) {
     .just-desktop {
         display: none;
+    }
+
+    .slick-respon,
+    .slick-respon2 {
+        margin-left: 25px !important;
     }
 
     .card-academy {
@@ -182,6 +191,12 @@
     /* header */
     .header-home {
         height: 120px;
+    }
+
+    .header-image,
+    .parent-wraper,
+    .slick-carousel {
+        height: 83.5px !important;
     }
 
     .text-carousel {

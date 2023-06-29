@@ -8,6 +8,11 @@
     filter: grayscale(1) brightness(100);
 }
 
+/* container reset */
+.container {
+    max-width: 1230px;
+}
+
 /* font reset */
 h1 {
     font-size: 35px;
