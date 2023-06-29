@@ -173,11 +173,44 @@ transition: .3s;
     font-size: 50px;
 }
 
-.card-academy > div {
-    height: 445px;
+.card-title {
+    font-size: 35px;
 }
 
 
+.accordion-button {
+    gap: 80px;
+}
+
+.accordion-button svg {
+    margin-left: 50px;
+}
+
+.accordion-body {
+    padding-left: 153px !important;
+    margin-left: 19px;
+}
+
+.accordion-button.collapsed {
+    color: var(--my-red);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../assets/icon/chevrondown.svg) !important;
+}
+
+.accordion-button.collapsed .stroke2,
+.accordion-button.collapsed .stroke1,
+.accordion-button.collapsed .stroke3 {
+    stroke: var(--my-red) !important;
+}
+
+.accordion-button::after {
+    background-image: url(../../assets/icon/chevrondown.svg);
+}
+.card-academy > div {
+    height: 445px;
+}
 
 /* desktop */
 @media screen and (max-width:992px) {
@@ -191,8 +224,46 @@ transition: .3s;
     }
 }
 
+/* desktop 14inch */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .container {
+        padding-inline: 70px;
+    }
+
+    .margin-minus {
+        margin-inline: -50px;
+    }
+
+    .slick-respon,
+    .slick-respon2 {
+        margin-left: 55px !important;
+    }
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
+    .accordion-button {
+        gap: 15px;
+    }
+
+    .accordion-button span {
+        width: 192px;
+    }
+
+    .accordion-button::after {
+        width: 14px;
+        height: 14px;
+        background-size: cover;
+    }
+
+    .accordion-body {
+        padding-left: 3rem !important;
+    }
+
+    .accordion-button svg {
+        margin-left: 0;
+        width: 25px !important;
+        height: 25px !important;
     .arr-pos {
         right: 50px;
         bottom: 210px;
@@ -202,6 +273,9 @@ transition: .3s;
         display: none;
     }
 
+    .slick-respon,
+    .slick-respon2 {
+        margin-left: 25px !important;
     .nav-carousel {
         padding-top: 30px;
         padding-bottom: 50px;
