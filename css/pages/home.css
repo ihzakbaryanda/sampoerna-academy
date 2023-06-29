@@ -147,10 +147,6 @@
         padding-inline: 20px;
     } */
 
-    .slick-respon .card {
-        width: 100px;
-    }
-
     .slick-resp-nav .slick-prev:before,
     .slick-resp-nav .slick-next:before {
         color: var(--my-purple);
