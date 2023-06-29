@@ -185,7 +185,11 @@ transition: .3s;
 
 /* mobile */
 @media screen and (max-width:991px) {
-   
+    .arr-pos {
+        right: 50px;
+        bottom: 210px;
+    }
+
     .just-desktop {
         display: none;
     }
@@ -198,9 +202,9 @@ transition: .3s;
         padding: 15px 20px;
     }
 
+
     .arr-pos > button.slick-prev {
         margin-left: -80px;
-
     }
 
     .slick-nav {
@@ -213,12 +217,7 @@ transition: .3s;
         font-size: 25px;
     }
 
-    .arr-pos {
-        position: absolute;
-        width: 5px;
-        right: 55px;
-        bottom: 12px;
-    }
+   
 
     .dot-pos {
         position: absolute;
