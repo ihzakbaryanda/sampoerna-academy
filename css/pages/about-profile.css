@@ -1,0 +1,24 @@
+.my-jumbotron {
+    border-bottom: 18px solid var(--my-red);
+    position: relative;
+}
+
+.mask-jumbotron {
+    background-color: rgba(0, 0, 0, 0.397);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* mobile */
+@media screen and (max-width:991px) {
+    .img-profile {
+        width: 200px !important;
+    }
+
+    .card-body.detail-profile {
+        margin-top: 0 !important;
+    }
+}
