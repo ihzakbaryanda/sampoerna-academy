@@ -80,6 +80,10 @@ body {
     margin-bottom: 40px;
 }
 
+.hr-60 {
+    margin-block: 60px;
+}
+
 .hr-80 {
     margin-block: 80px;
 }
