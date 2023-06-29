@@ -27,5 +27,53 @@ h1 {
 
 /* Background */
 .bg-danger {
-    background-color: #AE4029 !important;
+    background-color: var(--my-red) !important;
+}
+
+
+
+.dropdown .dropdown-menu {
+    transition: .5s !important;
+}
+
+.dropdown .dropdown-menu {
+    margin-top: 40px;
+}
+
+.dropdown .dropdown-menu {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(15px);
+}
+
+.dropdown .dropdown-menu li {
+    padding: 5px 10px 10px;
+    margin: 0 15px;
+}
+
+.dropdown .dropdown-menu li a {
+    color: var(--my-red);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dropdown .dropdown-menu li:hover a {
+    background: none;
+    color: var(--my-red);
+}
+
+.navbar svg {
+    color: var(--my-red);
+}
+
+.container {
+    max-width: 1230px;
+}
+
+@media screen and (max-width:991px) {
+    .dropdown .dropdown-menu {
+        margin-top: 1px;
+    }
 }

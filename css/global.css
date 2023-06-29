@@ -80,6 +80,10 @@ body {
     margin-bottom: 40px;
 }
 
+.hr-60 {
+    margin-block: 60px;
+}
+
 .hr-80 {
     margin-block: 80px;
 }
@@ -164,4 +168,9 @@ body {
 @font-face {
     font-family: opensans;
     src: url(../assets/font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
 }
