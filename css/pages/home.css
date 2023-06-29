@@ -112,6 +112,10 @@
     font-size: 35px;
 }
 
+.slick-nav {
+    right: 300px !important;
+}
+
 .dot-pos {
     position: absolute;
     bottom: 303px;
@@ -185,12 +189,12 @@ transition: .3s;
         display: none;
     }
 
-    /* .slick-respon {
-        padding-inline: 20px;
-    } */
+    .slick-nav {
+        right: 57px !important;
+    }
 
-    .slick-resp-nav .slick-prev:before,
-    .slick-resp-nav .slick-next:before {
+    .slick-nav .slick-prev:before,
+    .slick-nav .slick-next:before {
         color: var(--my-purple);
         font-size: 25px;
     }
@@ -204,7 +208,7 @@ transition: .3s;
 
     .dot-pos {
         position: absolute;
-        top: -20px;
+        top: 22px;
         left: 9px;
     }
 
