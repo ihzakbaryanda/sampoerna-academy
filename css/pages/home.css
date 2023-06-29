@@ -185,8 +185,17 @@ transition: .3s;
 
 /* mobile */
 @media screen and (max-width:991px) {
+   
     .just-desktop {
         display: none;
+    }
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .arr-pos > button.slick-prev {
+        margin-left: -80px;
     }
 
     .slick-nav {
