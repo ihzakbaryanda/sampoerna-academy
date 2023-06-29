@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sampoerna Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/custom-bootstrap.css">
+
+    <!-- pages -->
+    <link rel="stylesheet" href="css/pages/about-sa-in-numbers.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-white" style="border-radius: 0 0 30px 30px;">
+            <div class="container py-2">
+                <a class="navbar-brand mb-1" href="home.html">
+                    <img src="assets/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="assets/icon/hambbar.svg" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html">Overview</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Schools
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Campuses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Admissions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="admission.html">Overview</a></li>
+                                <li><a class="dropdown-item" href="admission-howToApply.html">How To Apply</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Schools</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">STEAM</a>
+                        </li>
+                    </ul>
+                    <div style="white-space: nowrap;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search me-2" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                        <button class="btn btn-outline-danger px-4" style="font-size: 12px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-globe" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                            </svg>
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main style="">
+        <!--  -->
+        <section class="my-jumbotron">
+            <img src="./assets/image/sa-in-numbers-hero.jpg" alt="" class="w-100"
+                style="object-fit: cover;min-height: 431px; max-height: 431px;">
+            <div class="bg-purple w-100">
+                <div class="container text-white py-4">
+                    <h5>SA in Numbers</h5>
+                    <h2>Empowering Students with Technology-Driven Curriculum at Sampoerna Academy</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- section navigation -->
+        <section class="py-4 container">
+            <div class="nav-slick just-mobile">
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about.html">About Us</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about-ourapproach.html">Our Approach</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill">Leadership</a>
+                <a class="btn me-2 btn-danger rounded-pill" href="./about-sa-in-numbers.html">SA in Numbers</a>
+                <a class="btn me-2  btn-outline-danger rounded-pill" href="about-contact.html">Contact</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill">Alumni & Testimonials</a>
+                <a class="btn btn-outline-danger rounded-pill">Facilities</a>
+            </div>
+            <div class="d-flex justify-content-center gap-2 just-desktop">
+                <a class="btn btn-outline-danger rounded-pill" href="about.html">About Us</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-ourapproach.html">Our Approach</a>
+                <a class="btn btn-outline-danger rounded-pill">Leadership</a>
+                <a class="btn btn-danger rounded-pill" href="./about-sa-in-numbers.html">SA in Numbers</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-contact.html">Contact</a>
+                <a class="btn btn-outline-danger rounded-pill">Alumni & Testimonials</a>
+                <a class="btn btn-outline-danger rounded-pill">Facilities</a>
+            </div>
+            <div class="just-mobile mt-3">
+                <div class="d-flex justify-content-center gap-1">
+                    <button class="btn btn-danger shadow">
+                        <img style="width: 22px;height: 22px;" src="assets/icon/Document, Text, Edit.svg" alt="">
+                    </button>
+                    <button class="btn btn-danger shadow">
+                        <img style="width: 22px;height: 22px;" src="assets/icon/chat-messages-edit.svg" alt="">
+                    </button>
+                    <button class="btn btn-danger shadow">
+                        <img style="width: 22px;height: 22px;" src="assets/icon/cursor-select-vertical-square.svg"
+                            alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+        <hr style="margin-block: 50px;">
+
+        <!-- Sampoerna Academy Students Section -->
+        <section class="container mt-4 mx-auto mb-5 pb-5">
+            <h2 class="text-purple mb-3">Sampoerna Academy Students</h2>
+            <div id="academy-student-card">
+                <div>
+                    <img src="./assets/image/about-sa-in-numbers-students.png" alt="About SA In Numbers Students">
+                </div>
+                <div>
+                    <h5 class="text-purple mb-5">Great Student From Sampoerna Academy</h5>
+                    <div class="text-purple font-40px mb-5">
+                        <p class="mb-1">1.994 Students</p>
+                        <p>15 Nationalities</p>
+                    </div>
+                    <ul class="d-flex text-purple">
+                        <li class="me-5">Indonesia : 1.927</li>
+                        <li class="me-5">Asia : 61</li>
+                        <li class="me-5">Europe : 3</li>
+                        <li>Australia & Pacific : 3</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- ! Sampoerna Academy Students Section -->
+
+        <!-- Staff & Faculty at Sampoerna Academy Section -->
+        <section class="container mb-5 pb-5 ">
+            <h2 class="text-purple mb-3">Staff & Faculty at Sampoerna Academy</h2>
+            <ul class="staff-faculty-list">
+                <li class="me-2">
+                    <div class="staff-faculty-card">
+                        <img src="./assets/image/total-teacher.png" alt="Staf 7 Faculty Image">
+                        <div>
+                            <b>277</b>
+                            <p>Total Teachers</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="me-2">
+                    <div class="staff-faculty-card">
+                        <img src="./assets/image/bachelor.png" alt="Staf 7 Faculty Image">
+                        <div>
+                            <b>91%</b>
+                            <p>Bachelor & Master</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="me-2">
+                    <div class="staff-faculty-card">
+                        <img src="./assets/image/certified.png" alt="Staf 7 Faculty Image">
+                        <div>
+                            <b>72%</b>
+                            <p>Google Certified</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="me-2">
+                    <div class="staff-faculty-card">
+                        <img src="./assets/image/retention.png" alt="Staf 7 Faculty Image">
+                        <div>
+                            <b>78%</b>
+                            <p>Faculty Retention</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="staff-faculty-card">
+                        <img src="./assets/image/ratio.png" alt="Staf 7 Faculty Image">
+                        <div>
+                            <b>1:10</b>
+                            <p>Lecture to Student <br> Ratio</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- ! Staff & Faculty at Sampoerna Academy Section -->
+
+        <!-- Technology at Sampoerna Academy Section -->
+        <section class=" container mb-5 pb-5">
+            <h2 class="text-purple mb-3">Technology at Sampoerna Academy</h2>
+            <ul class="technology-list">
+                <li class="me-4">
+                    <div class="technology-card">
+                        <div class="bg-white">
+                            <img src="./assets/image/ipad.png" alt="Technology Image">
+                        </div>
+                        <div>
+                            <b>204</b>
+                            <p>iPads</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="me-4">
+                    <div class="technology-card">
+                        <div class="bg-white">
+                            <img src="./assets/image/laptop.png" alt="Technology Image">
+                        </div>
+                        <div>
+                            <b>204</b>
+                            <p>Laptops</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="technology-card">
+                        <div class="bg-white">
+                            <img src="./assets/image/desktop.png" alt="Technology Image">
+                        </div>
+                        <div>
+                            <b>204</b>
+                            <p>Desktop Computer</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- ! Technology at Sampoerna Academy Section -->
+
+        <!-- Number of Languanges Spoken Section -->
+        <section id="number-of-languanges-spoken" class="bg-purple mb-5 pb-5 text-light py-5">
+            <div class="container">
+                <div>
+                    <h2 class="mb-5">Number of Languanges Spoken</h2>
+                    <button class="btn btn-light mb-3">15 Languanges</button>
+                    <p class="mb-5">
+                        With 15 nationalities at Sampoerna Academy, and <br> predominantly using English to communicate
+                        with each other
+                    </p>
+                    <div id="number-of-languanges-spoken-lists">
+                        <ul>
+                            <li>English</li>
+                            <li>Indonesian</li>
+                            <li>Canada</li>
+                            <li>Switzerland</li>
+                            <li>Germany</li>
+                        </ul>
+                        <ul>
+                            <li>China</li>
+                            <li>Korea</li>
+                            <li>Japan</li>
+                            <li>Taiwan</li>
+                            <li>Philippines</li>
+                        </ul>
+                        <ul>
+                            <li>Malaysia</li>
+                            <li>Indonesian</li>
+                            <li>Canada</li>
+                            <li>Switzerland</li>
+                            <li>Germany</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <img src="./assets/image/baloon.png" alt="Baloon Image">
+                </div>
+            </div>
+        </section>
+        <!-- ! Number of Languanges Spoken Section -->
+
+        <!-- Sampoerna Academy Superiority Section -->
+        <section class="container mb-5 pb-5">
+            <h2 class="text-purple mb-3">Sampoerna Academy Superiority</h2>
+            <ul id="sampoerna-academy-superiority-list">
+                <li class="sampoerna-academy-superiority-card me-3">
+                    <img src="./assets/icon/sampoerna.svg" alt="Superiority Image">
+                    <img src="./assets/image/superiority-1.jpg" alt="Superiority Image">
+                    <div class="mt-3">
+                        <b>100%</b>
+                        <p>IGSCE Pass</p>
+                    </div>
+                </li>
+                <li class="sampoerna-academy-superiority-card me-3">
+                    <img src="./assets/icon/sampoerna.svg" alt="Superiority Image">
+                    <img src="./assets/image/superiority-2.jpg" alt="Superiority Image">
+                    <div class="mt-3">
+                        <b>100%</b>
+                        <p>AS&A Level Pass</p>
+                    </div>
+                </li>
+                <li class="sampoerna-academy-superiority-card me-3">
+                    <img src="./assets/icon/sampoerna.svg" alt="Superiority Image">
+                    <img src="./assets/image/superiority-3.jpg" alt="Superiority Image">
+                    <div class="mt-3">
+                        <b>100%</b>
+                        <p>College Acceptance Rate</p>
+                    </div>
+                </li>
+                <li class="sampoerna-academy-superiority-card me-3">
+                    <img src="./assets/icon/sampoerna.svg" alt="Superiority Image">
+                    <img src="./assets/image/superiority-4.jpg" alt="Superiority Image">
+                    <div class="mt-3">
+                        <b>80%</b>
+                        <p>National University Acceptance Rate</p>
+                    </div>
+                </li>
+                <li class="sampoerna-academy-superiority-card">
+                    <img src="./assets/icon/sampoerna.svg" alt="Superiority Image">
+                    <img src="./assets/image/superiority-5.jpg" alt="Superiority Image">
+                    <div class="mt-3">
+                        <b>600+</b>
+                        <p>STEAM Project <br> Developed</p>
+                        <button class="btn btn-danger mt-3 w-75">Learn More</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- ! Sampoerna Academy Superiority Section -->
+
+        <!-- Sampoerna Academy's achievements Section -->
+        <section id="sampoerna-academy-achievements" class="container mb-5 p-5 bg-white rounded">
+            <div class="mb-5 pb-5">
+                <h2 class="text-purple mb-3">Sampoerna Academy's achievements</h2>
+                <ul id="sampoerna-academy-achievements-list" class="slick-carousel">
+                    <li class="sampoerna-academy-achievements-card">
+                        <img class="mb-3" src="./assets/image/achievements.jpg" alt="Achievements Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus sem, vulputate eget sem
+                            a, vehicula tincidunt elit. Fusce metus tortor, ornare ac volutpat vitae, ullamcorper a
+                            lorem. In a nulla dapibus, faucibus nunc ac, accumsan leo. Donec aliquam pretium felis
+                            in eleifend. In aliquet urna et eleifend aliquet. Sed hendrerit justo risus, non
+                            elementum enim efficitur id.</p>
+                    </li>
+                    <li class="sampoerna-academy-achievements-card">
+                        <img class="mb-3" src="./assets/image/achievements.jpg" alt="Achievements Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus sem, vulputate eget sem
+                            a, vehicula tincidunt elit. Fusce metus tortor, ornare ac volutpat vitae, ullamcorper a
+                            lorem. In a nulla dapibus, faucibus nunc ac, accumsan leo. Donec aliquam pretium felis
+                            in eleifend. In aliquet urna et eleifend aliquet. Sed hendrerit justo risus, non
+                            elementum enim efficitur id.</p>
+                    </li>
+                    <li class="sampoerna-academy-achievements-card">
+                        <img class="mb-3" src="./assets/image/achievements.jpg" alt="Achievements Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus sem, vulputate eget sem
+                            a, vehicula tincidunt elit. Fusce metus tortor, ornare ac volutpat vitae, ullamcorper a
+                            lorem. In a nulla dapibus, faucibus nunc ac, accumsan leo. Donec aliquam pretium felis
+                            in eleifend. In aliquet urna et eleifend aliquet. Sed hendrerit justo risus, non
+                            elementum enim efficitur id.</p>
+                    </li>
+                </ul>
+                <div class="slick-carousel-nav slick-nav">
+                </div>
+            </div>
+
+            <div id="wmi-preliminary" class="bg-purple rounded text-light mb-5">
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/image/wmi-preliminary.jpg" alt="WMI Preliminary Image">
+                    </div>
+                    <div class="p-5">
+                        <div class="d-flex align-items-center mb-5">
+                            <img class="me-3" src="./assets/image/wmi-preliminary-trophy.png"
+                                alt="WMI Preliminary Trophy Image">
+                            <h3>WMI 2021 Preliminary</h3>
+                        </div>
+                        <div>
+                            <ul id="wmi-preliminary-list">
+                                <li class="wmi-preliminary-card">
+                                    21 Gold
+                                </li>
+                                <li class="wmi-preliminary-card">
+                                    36 Silver
+                                </li>
+                                <li class="wmi-preliminary-card">
+                                    45 Bronze
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-danger">
+                    <p>Award & Achievement</p>
+
+                    <div>
+                        <select class="form-select">
+                            <option selected>Category Awards</option>
+                        </select>
+
+                        <select class="form-select">
+                            <option selected>Years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="wmi">
+                <ul class="mb-3 row mx-auto">
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">WMI Final 2020</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">1 Silver</div>
+                                <div class="btn btn-outline-danger">2 Bronze</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">SEAMO</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">1 Gold</div>
+                                <div class="btn btn-outline-danger">3 Silver</div>
+                                <div class="btn btn-outline-danger">10 Bronze</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">SEAMO X Final</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">1 Gold</div>
+                                <div class="btn btn-outline-danger">2 Bronze</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">JISMO Spring 2021</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">1 Silver</div>
+                                <div class="btn btn-outline-danger">2 Bronze</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">Piano Rhapsody</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">2nd Place</div>
+                                <div class="btn btn-outline-danger">3rd Place</div>
+                                <div class="btn btn-outline-danger">1 Silver</div>
+                                <div class="btn btn-outline-danger">1 Bronze</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="wmi-card col-md-4 me-3 mb-3">
+                        <img class="me-4" src="./assets/image/wmi-trophy.png" alt="WMI Trophy Image">
+                        <div>
+                            <h3 class="mb-2">JISMO Autumn 2020</h3>
+                            <div class="d-flex flex-wrap">
+                                <div class="btn btn-outline-danger">5 Ruby</div>
+                                <div class="btn btn-outline-danger">10 Sapphire</div>
+                                <div class="btn btn-outline-danger">5 Emerald</div>
+                                <div class="btn btn-outline-danger">2 Diamond</div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btn btn-primary w-50">Show More</button>
+            </div>
+        </section>
+        <!-- ! Sampoerna Academy's achievements Section -->
+
+        <!-- University Acceptance Section -->
+        <section style=" padding-bottom: 80px;">
+            <h2 class="text-purple mb-3 container">University Acceptance</h2>
+
+            <div class="bg-purple text-center py-5 ">
+                <div class="container">
+                    <img src="./assets/image/map.png" alt="Map Image">
+                </div>
+            </div>
+            <div class="bg-danger py-3">
+                <div class="container">
+                    <select class="form-select w-25">
+                        <option selected>
+                            <img src="./assets/icon/america-flag.svg" alt="Flag Image">
+                            United States America (27)
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <div class="bg-white py-5">
+                <div class="container">
+                    <div id="number-of-languanges-spoken-lists">
+                        <ul>
+                            <li>Michigan State University</li>
+                            <li>The New School Parsons</li>
+                            <li>Oregon State University</li>
+                            <li>University State Houston</li>
+                            <li>University of Toronto</li>
+                            <li>California College of the Arts</li>
+                            <li>Purdue University</li>
+                        </ul>
+                        <ul>
+                            <li>College of San Mateo</li>
+                            <li>University of Wisconin-Madison</li>
+                            <li>Michigan State University</li>
+                            <li>California Polytechnic</li>
+                            <li>Yale University</li>
+                            <li>Cornell University</li>
+                            <li>New York University</li>
+                        </ul>
+                        <ul>
+                            <li>Princeton University</li>
+                            <li>University of Arizona</li>
+                            <li>University of Pennsylvania</li>
+                            <li>University of Washington</li>
+                            <li>Biola University</li>
+                            <li>Penn State University</li>
+                        </ul>
+                        <ul>
+                            <li>University of Kansas</li>
+                            <li>Pasadena City College Los Angeles</li>
+                            <li>Pennsylvania State University-Main Campus</li>
+                            <li>University of Massachusets-Amherst</li>
+                            <li>University of Massachusetts Lowell</li>
+                            <li>University of Illinois at Urbana-Chambaign</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! University Acceptance -->
+    </main>
+
+    <footer class="bg-purple text-white" style="border-top: 10px solid var(--my-red);">
+        <div class="container pt-5 pb-4">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="mb-4">Head Office</h2>
+                    <p>
+                        L’Avenue Campus <br>
+                        Jln. Raya Pasar Minggu, Kav. 16 <br>
+                        Pancoran, Jakarta 12780 <br>
+                    </p>
+                    <p>
+                        Need More Assistance?<br>
+                        (021) 50 22 234 / +62821 62 800 800
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h2 class="mb-4">Menu</h2>
+                    <p>
+                        Homepage <br>
+                        FAQ <br>
+                        Career <br>
+                        Contact Us <br>
+                        Privacy Policy <br>
+                    </p>
+                </div>
+                <div class="col-lg-5 ">
+                    <h2 class="mb-4">Accredited By :</h2>
+                    <div class="row mb-4">
+                        <div class="col-6"><img class="w-100" src="assets/image/footer2.png" alt=""></div>
+                        <div class="col-6"><img class="w-100" src="assets/image/footer1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <hr style="border: 1px solid white;">
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <img src="assets/icon/Copyright (1).svg" alt="">
+                    <span>2022 Sampoerna Academy. All Right Reserved</span>
+                </div>
+                <div class="col-6">
+                    <div class="text-end">
+                        <img src="assets/icon/Facebook.svg" alt="">
+                        <img src="assets/icon/Instagram.svg" alt="">
+                        <img src="assets/icon/Twitter.svg" alt="">
+                        <img src="assets/icon/Youtube.svg" alt="">
+                        <img src="assets/icon/Linkedin.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+    <script src="assets/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            
+            $('.slick-carousel').slick({
+                dots: true,
+                slidesToShow: 1,
+                infinite: false,
+                variableWidth: true,
+                appendArrows: $('.slick-carousel-nav'),
+            });
+            
+        });
+    </script>
+</body>
+</body>
+
+</html>

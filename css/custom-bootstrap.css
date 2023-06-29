@@ -8,4 +8,8 @@
     filter: grayscale(1) brightness(100);
 }
 
-/* button */
+/* Background */
+
+.bg-danger {
+    background-color: #AE4029 !important;
+}
