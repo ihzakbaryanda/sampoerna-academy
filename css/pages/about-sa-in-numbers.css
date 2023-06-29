@@ -251,9 +251,9 @@ font-size: 27.91px;
 
 .wmi-card {
     display: flex;
-    width: 322px;
+    width: 300px;
     height: 161px;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid var(--my-purple);
     border-radius: 10px;
 }
