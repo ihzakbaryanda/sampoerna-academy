@@ -147,6 +147,10 @@
         display: none;
     }
 
+    .card-academy {
+        margin-bottom: 65px;
+    }
+
     .slick-nav {
         right: 57px !important;
     }
