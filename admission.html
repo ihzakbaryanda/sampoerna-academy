@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-lg bg-white" style="border-radius: 0 0 30px 30px;">
             <div class="container py-2">
                 <a class="navbar-brand mb-1" href="home.html">
-                    <img src="assets/logo.png" alt="">
+                    <img src="assets/images/logo-sampoerna.png" width="129px" alt="">
                 </a>
                 <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -109,7 +109,53 @@
             </div>
         </nav>
     </div>
-
+    <!-- FAB -->
+    <div class="just-mobile shadow float-button" style="">
+        <div class="w-100 d-flex justify-content-center" style="position: absolute; bottom: 60px;">
+            <div class="btn-group rounded" role="group" aria-label="Basic example" style="position: absolute;gap: 2px;">
+                <a href="admission.html" class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/admisson-small.svg" alt="">
+                    <span>Admission</span>
+                </a>
+                <button type="button" class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/schedule-small.svg" alt="">
+                    <a class="text-white text-decoration-none"
+                        href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/">Schedule a Visit</a>
+                </button>
+                <a href="https://api.whatsapp.com/send?phone=6281234367234&text=Hi,%20I%27d%20like%20to%20find%20out%20more%20about%20Sampoerna%20Academy"
+                    class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/whatsapp.svg" class="fs-12" alt="">
+                    <span>Whatsapp</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="just-desktop shadow float-button" style="">
+        <div class="btn-group-vertical rounded" role="group" aria-label="Vertical button group"
+            style="max-width: 79px; gap: 3px;">
+            <a href="admission.html" class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                style="flex-direction: column;">
+                <img src="assets/icon/admisson-small.svg" alt="">
+                <span>Admission</span>
+            </a>
+            <button type="button" class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                style="flex-direction: column;">
+                <img src="assets/icon/schedule-small.svg" alt="">
+                <a class="text-white text-decoration-none"
+                    href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/">Schedule a Visit</a>
+            </button>
+            <a href="https://api.whatsapp.com/send?phone=6281234367234&text=Hi,%20I%27d%20like%20to%20find%20out%20more%20about%20Sampoerna%20Academy"
+                class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                style="flex-direction: column;">
+                <img src="assets/icon/whatsapp.svg" alt="">
+                <span>Contact Whatsapp</span>
+            </a>
+        </div>
+    </div>
+    <!-- END FAB -->
     <main style="">
         <!--  -->
         <section class="my-jumbotron">
@@ -270,26 +316,29 @@
 
                     <div class="just-desktop">
                         <div class="d-flex gap-3 ps-4" style="white-space: nowrap;">
-                            <button class="btn btn-primary d-flex align-items-center">
+                            <a class="btn btn-primary d-flex align-items-center" href="admission-howToApply.html">
                                 <img src="assets/icon/schedule.svg" alt="">
                                 How To Apply
-                            </button>
-                            <button class="btn btn-primary d-flex align-items-center">
+                            </a>
+                            <a class="btn btn-primary d-flex align-items-center"
+                                href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/">
                                 <img src="assets/icon/Notebook.svg" alt="">
                                 Schedule a Consultation
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="just-mobile mt-4">
                         <div class="d-flex gap-3 justify-content-center" style="white-space: nowrap;">
-                            <button style="font-size: 9px;" class="btn btn-danger d-flex align-items-center">
+                            <a style="font-size: 9px;" class="btn btn-danger d-flex align-items-center"
+                                href="admission-howToApply.html">
                                 <img src="assets/icon/schedule.svg" alt="">
                                 How To Apply
-                            </button>
-                            <button style="font-size: 9px;" class="btn btn-outline-danger d-flex align-items-center">
+                            </a>
+                            <a href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/" style="font-size: 9px;"
+                                class="btn btn-outline-danger d-flex align-items-center">
                                 <img src="assets/icon/schedule-mobile.svg" alt="">
                                 Schedule a Consultation
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -335,11 +384,15 @@
             <p class="mb-0">Email : info@sampoernaacademy.sch.id</p>
             <button class="btn btn-primary mt-4 just-desktop">
                 <img src="assets/icon/schedule.svg" alt="">
-                <span>Online Registration</span>
+                <a href="https://form.jotform.com/marketingsss/admission" class="text-white text-decoration-none">
+                    Online Registration
+                </a>
             </button>
             <button class="btn btn-danger mt-4 just-mobile">
                 <img src="assets/icon/schedule.svg" alt="">
-                <span>Online Registration</span>
+                <a class="text-white text-decoration-none" href="https://form.jotform.com/marketingsss/admission">
+                    <span>Online Registration</span>
+                </a>
             </button>
         </section>
         <hr style="margin-block: 55px;" class="container">
@@ -358,7 +411,10 @@
                             <p>Our education system is created to enable our children to maximize their potential</p>
                             <button class="btn btn-danger d-flex align-items-center gap-3">
                                 <img src="assets/icon/DownloadSimple.svg" alt="">
-                                <span>Download Booklet</span>
+                                <a class="text-white text-decoration-none"
+                                    href="https://www.sampoernaacademy.sch.id/wp-content/uploads/2023/01/SA-e-Brochure-2023_compressed.pdf">
+                                    Download Booklet
+                                </a>
                             </button>
                         </div>
                     </div>
@@ -373,7 +429,10 @@
                                 students and parents!</p>
                             <button class="btn btn-danger d-flex align-items-center gap-3">
                                 <img src="assets/icon/DownloadSimple.svg" alt="">
-                                <span>Download Handbook</span>
+                                <a class="text-white text-decoration-none"
+                                    href="http://www.sampoernaacademy.sch.id/wp-content/uploads/2022/08/Parent-Student-Handbook-22-23.pdf">
+                                    Download Handbook
+                                </a>
                             </button>
                         </div>
                     </div>
@@ -424,11 +483,22 @@
                 </div>
                 <div class="col-6">
                     <div class="text-end">
-                        <img src="assets/icon/Facebook.svg" alt="">
-                        <img src="assets/icon/Instagram.svg" alt="">
-                        <img src="assets/icon/Twitter.svg" alt="">
-                        <img src="assets/icon/Youtube.svg" alt="">
-                        <img src="assets/icon/Linkedin.svg" alt="">
+                        <a style="text-decoration: none;" href="https://www.facebook.com/sampoernacademy">
+                            <img src="assets/icon/Facebook.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/sampoerna.academy">
+                            <img src="assets/icon/Instagram.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="https://twitter.com/sampoernacademy">
+                            <img src="assets/icon/Twitter.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;"
+                            href="https://www.youtube.com/channel/UC4jXamefYHy_9bd51m4qnKQ">
+                            <img src="assets/icon/Youtube.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="">
+                            <img src="assets/icon/Linkedin.svg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
