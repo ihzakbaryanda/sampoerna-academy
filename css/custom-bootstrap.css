@@ -59,3 +59,7 @@ h1 {
     background: none;
     color: var(--my-red);
 }
+
+.container {
+    max-width: 1230px;
+}
