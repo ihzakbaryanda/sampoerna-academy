@@ -1,0 +1,30 @@
+.person-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--my-red) !important;
+}
+
+/* mobile */
+@media screen and (max-width:991px) {
+    .card-message {
+        background-color: transparent;
+    }
+
+    .card-message .card-body {
+        padding-inline: 0;
+        padding-block: 15px !important;
+    }
+
+    .card-message .card-footer {
+        padding: 0 !important;
+        background-color: transparent !important;
+    }
+
+    .card-message p {
+        color: black;
+    }
+}
