@@ -101,7 +101,7 @@
 }
 
 .slick-dots li.slick-active button:before,
-.slick-dots li:hover button::before{
+.slick-dots li:hover button::before {
     color: var(--my-red);
     opacity: 1;
 }
@@ -130,22 +130,22 @@
     width: 50px;
 }
 
-.arr-pos > button::before {
+.arr-pos>button::before {
     content: none;
 }
 
-.arr-pos > button.slick-prev {
+.arr-pos>button.slick-prev {
     margin-left: -40px;
 }
 
-.arr-pos > button.slick-prev:hover,
-.arr-pos > button.slick-next:hover {
-background-color: rgba(255, 255, 255, .3);
-transition: .3s;
+.arr-pos>button.slick-prev:hover,
+.arr-pos>button.slick-next:hover {
+    background-color: rgba(255, 255, 255, .3);
+    transition: .3s;
 }
 
-.arr-pos > button.slick-prev,
-.arr-pos > button.slick-next {
+.arr-pos>button.slick-prev,
+.arr-pos>button.slick-next {
     width: 58px;
     height: 58px;
     border: 1px solid white;
@@ -154,14 +154,14 @@ transition: .3s;
 }
 
 
-.arr-pos > button.slick-prev::after {
+.arr-pos>button.slick-prev::after {
     content: url('../../assets/icon/arrow-left.svg');
     position: absolute;
     right: 20px;
     top: 20px;
 }
 
-.arr-pos > button.slick-next::after {
+.arr-pos>button.slick-next::after {
     content: url('../../assets/icon/arrow-right.svg');
     position: absolute;
     right: 20px;
@@ -208,8 +208,18 @@ transition: .3s;
 .accordion-button::after {
     background-image: url(../../assets/icon/chevrondown.svg);
 }
-.card-academy > div {
+
+.card-academy>div {
     height: 445px;
+}
+
+.see-more {
+    padding-inline: 16px;
+    padding-block: 12px;
+}
+
+.read-more {
+    padding: 13px, 20px, 13px, 20px;
 }
 
 /* desktop */
@@ -222,6 +232,8 @@ transition: .3s;
         height: 150px !important;
         padding-bottom: 10px;
     }
+
+
 }
 
 /* desktop 14inch */
@@ -237,6 +249,13 @@ transition: .3s;
     .slick-respon,
     .slick-respon2 {
         margin-left: 55px !important;
+    }
+}
+
+/* desktop keatas */
+@media screen and (min-width: 1024px) {
+    .l-padding {
+        padding: 40px 3px 45px 35px;
     }
 }
 
@@ -264,6 +283,8 @@ transition: .3s;
         margin-left: 0;
         width: 25px !important;
         height: 25px !important;
+    }
+
     .arr-pos {
         right: 50px;
         bottom: 210px;
@@ -276,6 +297,8 @@ transition: .3s;
     .slick-respon,
     .slick-respon2 {
         margin-left: 25px !important;
+    }
+
     .nav-carousel {
         padding-top: 30px;
         padding-bottom: 50px;
@@ -299,13 +322,13 @@ transition: .3s;
     .card-academy {
         margin-bottom: 65px;
     }
-    
+
     .navbar {
         padding: 15px 20px;
     }
 
 
-    .arr-pos > button.slick-prev {
+    .arr-pos>button.slick-prev {
         margin-left: -30px;
 
     }
@@ -320,7 +343,7 @@ transition: .3s;
         font-size: 25px;
     }
 
-    
+
 
     .dot-pos {
         position: absolute;
