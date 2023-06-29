@@ -33,14 +33,7 @@ h1 {
 
 
 .dropdown .dropdown-menu {
-    transition: .5s !important;
-}
-
-.dropdown .dropdown-menu {
     margin-top: 40px;
-}
-
-.dropdown .dropdown-menu {
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(15px);
@@ -75,5 +68,14 @@ h1 {
 @media screen and (max-width:991px) {
     .dropdown .dropdown-menu {
         margin-top: 1px;
+        backdrop-filter: none;   
+        outline: none;
+        border: none;
+       
+    }
+    .dropdown .dropdown-menu li,
+    .dropdown .dropdown-menu li a {
+        padding-left: 0;
+        margin-left: 0;
     }
 }
