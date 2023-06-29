@@ -31,9 +31,8 @@ h1 {
     transition: .5s !important;
 }
 
-.dropdown:hover .dropdown-menu {
-    display: block;
-    transition: .5s !important;
+.dropdown .dropdown-menu {
+    margin-top: 40px;
 }
 
 .dropdown .dropdown-menu {
@@ -57,6 +56,10 @@ h1 {
 
 .dropdown .dropdown-menu li:hover a {
     background: none;
+    color: var(--my-red);
+}
+
+.navbar svg {
     color: var(--my-red);
 }
 

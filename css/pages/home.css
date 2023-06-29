@@ -150,9 +150,8 @@ transition: .3s;
     height: 58px;
     border: 1px solid white;
     border-radius: 1000px;
-transition: .3s;
+    transition: .3s;
 }
-
 
 
 .arr-pos > button.slick-prev::after {
