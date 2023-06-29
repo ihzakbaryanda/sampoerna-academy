@@ -11,5 +11,6 @@
 /* Background */
 
 .bg-danger {
-    background-color: #AE4029 !important;
+    background-color: var(--my-red) !important;
 }
+
