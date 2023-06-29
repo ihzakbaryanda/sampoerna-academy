@@ -157,3 +157,8 @@ body {
     font-family: opensans;
     src: url(../assets/font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

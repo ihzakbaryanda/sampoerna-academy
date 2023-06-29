@@ -100,8 +100,9 @@
     display: flex;
 }
 
-.slick-dots li.slick-active button:before {
-    color: rgb(148, 81, 235);
+.slick-dots li.slick-active button:before,
+.slick-dots li:hover button::before{
+    color: var(--my-red);
     opacity: 1;
 }
 
@@ -129,10 +130,51 @@
     width: 50px;
 }
 
+.arr-pos > button::before {
+    content: none;
+}
+
+.arr-pos > button.slick-prev {
+    margin-left: -40px;
+}
+
+.arr-pos > button.slick-prev:hover,
+.arr-pos > button.slick-next:hover {
+background-color: rgba(255, 255, 255, .3);
+transition: .3s;
+}
+
+.arr-pos > button.slick-prev,
+.arr-pos > button.slick-next {
+    width: 58px;
+    height: 58px;
+    border: 1px solid white;
+    border-radius: 1000px;
+transition: .3s;
+}
+
+
+
+.arr-pos > button.slick-prev::after {
+    content: url('../../assets/icon/arrow-left.svg');
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.arr-pos > button.slick-next::after {
+    content: url('../../assets/icon/arrow-right.svg');
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
 .slick-prev:before,
 .slick-next:before {
     font-size: 50px;
 }
+
+
 
 /* desktop */
 @media screen and (min-width:992px) {
@@ -143,12 +185,22 @@
 
 /* mobile */
 @media screen and (max-width:991px) {
+   
     .just-desktop {
         display: none;
     }
 
+
     .card-academy {
         margin-bottom: 65px;
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .arr-pos > button.slick-prev {
+        margin-left: -80px;
+
     }
 
     .slick-nav {
