@@ -181,9 +181,14 @@ transition: .3s;
 
 
 /* desktop */
-@media screen and (min-width:992px) {
+@media screen and (max-width:992px) {
     .slick-respon .card {
         margin-right: 15px;
+    }
+
+    .header-home {
+        height: 150px !important;
+        padding-bottom: 10px;
     }
 }
 
