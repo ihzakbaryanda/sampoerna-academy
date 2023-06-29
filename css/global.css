@@ -76,6 +76,10 @@ body {
     margin-bottom: 30px;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
 .hr-80 {
     margin-block: 80px;
 }
