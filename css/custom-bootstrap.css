@@ -42,9 +42,12 @@ h1 {
 
 .dropdown .dropdown-menu li {
     padding: 5px 10px 10px;
-
     margin: 0 15px;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.dropdown .dropdown-menu li a {
+    font-size: 16px;
 }
 
 .dropdown .dropdown-menu li:hover a {
