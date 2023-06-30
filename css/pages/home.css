@@ -227,6 +227,96 @@
     padding: 12px 20px;
 }
 
+
+.slick-respon,
+.slick-respon2 {
+    margin-left: 0 !important;
+}
+
+.slick-respon .slick-dots,
+.slick-respon2 .slick-dots {
+    bottom: -70px;
+    left: 200px;
+}
+
+.slick-respon .slick-dots button::before,
+.slick-respon2 .slick-dots button::before {
+    color: var(--my-purple) !important;
+}
+
+.slick-resp-nav .slick-prev,
+.slick-resp-nav .slick-next,
+.slick-resp2-nav .slick-prev,
+.slick-resp2-nav .slick-next {
+    top: 33px;
+}
+
+.slick-resp-nav .slick-prev,
+.slick-resp2-nav .slick-prev {
+    bottom: -132px;
+}
+
+.slick-resp-nav .slick-prev::before,
+.slick-resp2-nav .slick-prev::before {
+    content: url('../../assets/icon/arrow-left-purple.svg');
+    position: absolute;
+    left: 10px !important;
+    bottom: 2000px !important;
+}
+
+.slick-resp-nav .slick-next::before,
+.slick-resp2-nav .slick-next::before {
+    content: url('../../assets/icon/arrow-right-purple.svg');
+    position: absolute;
+    left: 10px !important;
+    top: -1000px !important;
+}
+
+.slick-resp-nav .slick-prev::before,
+.slick-resp-nav .slick-next::before,
+.slick-resp2-nav .slick-prev::before,
+.slick-resp2-nav .slick-next::before {
+    position: absolute;
+    left: 15px;
+    top: 0 !important;
+}
+
+.slick-resp-nav .slick-disabled,
+.slick-resp2-nav .slick-disabled {
+    opacity: .6;
+}
+
+.slick-resp-nav .slick-prev,
+.slick-resp2-nav .slick-prev {
+    margin-left: -8px;
+}
+
+#academy-highlights .row {
+    margin-inline: -50px !important;
+}
+
+#grade-at-sampoerna .slick-respon,
+#campuses .slick-respon2 {
+    margin-inline: -38px !important;
+}
+
+
+#grade-at-sampoerna .slick-list,
+#campuses .slick-list {
+    overflow: visible;
+}
+
+.background-left-overflow-hidden{
+background-color: var(--my-grey);
+height: 100%;
+width: 40vw;
+position: absolute;
+z-index: 3;
+left: 0;
+transform: translateX(-100%);
+bottom: 0;
+}
+
 /* desktop */
 @media screen and (max-width:992px) {
     .slick-respon .card {
@@ -266,6 +356,34 @@
 
 /* mobile */
 @media screen and (max-width:991px) {
+
+    #grade-at-sampoerna .slick-list,
+    #campuses .slick-list {
+        overflow: hidden;
+    }
+    
+    #academy-highlights .row{
+        margin-inline: 0 !important;
+    }
+
+    #grade-at-sampoerna .slick-respon,
+    #campuses .slick-respon2 {
+        margin-inline: 0 !important;
+    }
+
+    .slick-respon .slick-dots,
+    .slick-respon2 .slick-dots {
+        left: 0;
+    }
+
+    .slick-resp-nav .slick-prev::before,
+    .slick-resp-nav .slick-next::before,
+    .slick-resp2-nav .slick-prev::before,
+    .slick-resp2-nav .slick-next::before {
+        left: -20px !important;
+    }
+
+
     .accordion-button {
         gap: 15px;
     }
