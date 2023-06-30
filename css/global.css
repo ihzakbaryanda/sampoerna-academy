@@ -133,6 +133,11 @@ body {
     z-index: 9999;
 }
 
+.my-jumbotron .bg-purple {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /* responsive */
 @media screen and (max-width:991px) {
     h1 {
