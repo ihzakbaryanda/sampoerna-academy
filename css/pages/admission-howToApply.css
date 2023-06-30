@@ -1,0 +1,11 @@
+#downloadables .btn-danger {
+    padding: 12px 30px !important;
+}
+
+.btn-or {
+    width: 234px;
+    font-size: 13px;
+    height: 50px;
+    justify-content: center;
+    gap: 10px;
+}

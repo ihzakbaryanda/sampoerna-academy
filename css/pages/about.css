@@ -2,6 +2,22 @@
     font-weight: lighter;
 }
 
+#about-sampoerna-academy h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#about-sampoerna-academy .about-academy-content {
+    display: flex;
+}
+
+#about-sampoerna-academy .about-academy-content img {
+    width: 396px !important;
+    height: 473px;
+    margin-right: 50px;
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
     .my-jumbotron h5 {

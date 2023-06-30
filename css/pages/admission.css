@@ -1,3 +1,35 @@
+
+
+#tuition .just-desktop {
+    padding: 13px, 17px, 13px, 25px !important;
+}
+
+.btn-hta,
+.btn-ss,
+.btn-or {
+    font-size: 13px;
+    width:155.53px;
+    height: 50px;
+    text-align: center;
+    gap: 10px;
+}
+
+.btn-ss {
+    width: 215px;
+}
+
+.btn-or {
+    width: 234px;
+}
+
+#downloadables .btn-danger {
+    padding: 12px 30px !important;
+}
+
+.list-group-item {
+    padding: 20px 30px;
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
     .my-jumbotron h5 {
