@@ -1189,7 +1189,7 @@
 
         <!-- section customer -->
         <section id="customer" class=" mt-150" style="position: relative; margin-bottom: 180px;">
-            <div class="slick-respon2">
+            <div class="slick-customer">
                 <div class="card-container slick-slide slick-current slick-active slick-center" tabindex="0"
                     role="tabpanel" id="slick-slide40" aria-describedby="slick-slide-control40" data-slick-index="0"
                     aria-hidden="false">
@@ -1259,7 +1259,7 @@
                 </div>
 
             </div>
-            <div class="slick-resp2-nav slick-nav" style="position: absolute;width: 15px;right: 150px;bottom: -18px;">
+            <div class="slick-customer-nav slick-nav" style="position: absolute;width: 15px;right: 150px;bottom: -18px;">
             </div>
         </section>
     </main>
@@ -1355,6 +1355,13 @@
                 infinite: false,
                 variableWidth: true,
                 appendArrows: $('.slick-resp2-nav'),
+            });
+            $('.slick-customer').slick({
+                dots: true,
+                slidesToShow: 1,
+                infinite: false,
+                variableWidth: true,
+                appendArrows: $('.slick-customer-nav'),
             });
         });
     </script>
