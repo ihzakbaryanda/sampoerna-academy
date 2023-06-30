@@ -301,6 +301,21 @@
 }
 
 
+#grade-at-sampoerna .slick-list,
+#campuses .slick-list {
+    overflow: visible;
+}
+
+.background-left-overflow-hidden{
+background-color: var(--my-grey);
+height: 100%;
+width: 40vw;
+position: absolute;
+z-index: 3;
+left: 0;
+transform: translateX(-100%);
+bottom: 0;
+}
 
 /* desktop */
 @media screen and (max-width:992px) {
@@ -341,6 +356,12 @@
 
 /* mobile */
 @media screen and (max-width:991px) {
+
+    #grade-at-sampoerna .slick-list,
+    #campuses .slick-list {
+        overflow: hidden;
+    }
+    
     #academy-highlights .row{
         margin-inline: 0 !important;
     }
