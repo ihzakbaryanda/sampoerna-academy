@@ -344,9 +344,9 @@
 
 /* desktop 14inch */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-    .container {
-        /* padding-inline: 70px; */
-    }
+    /* .container {
+        padding-inline: 70px;
+    } */
 
     .margin-minus {
         margin-inline: -50px;
@@ -359,15 +359,195 @@
     } */
 }
 
+.slick-respon .card {
+    width: 1008px;
+    height: 390px;
+    border: none;
+    border-radius: 13.8px !important;
+    outline: none;
+}
+
+.slick-respon .card .grade-img {
+    width: 451.166px;
+    height: 305px;
+    object-fit: cover;
+    border-radius: 8px !important;
+}
+
+.slick-respon .card .row>div:last-child>.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 45px 59px 61px 80px;
+}
+
+.slick-respon .card .row>div:last-child>.card-body a {
+    padding: 12.9px 20px;
+    border-radius: 8.7px;
+}
+
+.slick-respon2 .card {
+    width: 1008px !important;
+    border-radius: 9.2px;
+    height: 504px !important;
+}
+
+.slick-respon2 .card .card-img-top {
+    height: 255px !important;
+    object-fit: cover;
+}
+
+.slick-respon2 .card .row>div:first-child {
+    margin-bottom: 20px;
+}
+
+.slick-respon2 .card .card-body {
+    padding: 45px 50px !important;
+}
+
+.slick-respon2 .card .card-body p {
+    width: 642.971px;
+    font-size: 16px !important;
+}
+
+#school-calendar .btn-danger {
+    width: 339px;
+    text-align: left;
+}
+
+.card-container {
+    position: relative;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 18px;
+    margin-right: 20px;
+    width: 530px;
+}
+
+.image-container .image-quote {
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    transform: translateX(70%);
+}
+
+.card-container img:first-child {
+    object-fit: cover;
+    border-radius: 11px;
+    width: 257px;
+}
+
+.card-container .text-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-content: center;
+}
+
+.card-container .text-container .testimony-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101828;
+}
+
+.card-container .text-container .customer-name {
+    font-weight: 700;
+    font-size: 11.2729px;
+    line-height: 150%;
+    color: #090914;
+}
+
 /* desktop keatas */
 @media screen and (min-width: 1024px) {
     .l-padding {
-        padding: 35px 0  35px 40px;
+        padding: 35px 0 35px 40px;
     }
 }
 
 /* mobile */
 @media screen and (max-width:991px) {
+    .card-container {
+        padding: 0;
+        width: 252.83px;
+    }
+    .card-container img:first-child {
+        width: 100%;
+    }
+
+    .card-container .text-container {
+        padding: 20px;
+    }
+
+    .image-container .image-quote {
+        left: 80px !important;
+        top: 190px;
+    }
+
+    .slick-respon .card {
+        overflow: hidden;
+        width: 400px;
+        height: 588px;
+        padding: 0;
+    }
+
+    .slick-respon .card .row>div:last-child>.card-body {
+        padding: 20px;
+    }
+
+    .slick-respon .card .row>div:last-child>.card-body h3 {
+        height: 40px;
+    }
+
+    .slick-respon .card .row>div:last-child>.card-body small {
+        height: 68px;
+    }
+
+    .slick-respon .card .row>div:last-child>.card-body a {
+        margin-top: 30px !important;
+    }
+
+    .slick-respon .card .grade-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .slick-respon2 .card {
+        width: 335px !important;
+    }
+
+    .slick-respon2 .card .card-body {
+        padding: 40px 30px !important;
+    }
+
+    .slick-respon2 .card .card-img-top {
+        height: 154px !important;
+    }
+
+
+    .slick-respon2 .card .card-body .row>div:last-child {
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        padding: 0;
+    }
+
+    .slick-respon2 .card .card-body .card-title {
+        margin-left: -10px !important;
+    }
+
+    .slick-respon2 .card .card-body p {
+        width: 288px;
+        font-size: 15px !important;
+        margin-bottom: 40px !important;
+        padding: 0;
+    }
+
+    .slick-respon2 .card .card-body .row>div:last-child {
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+        height: 200px !important;
+    }
 
     #grade-at-sampoerna .slick-list,
     #campuses .slick-list {
