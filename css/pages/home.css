@@ -118,8 +118,8 @@
 
 .dot-pos {
     position: absolute;
-    bottom: 303px;
-    left: 52px;
+    bottom: 170px;
+    left: 33px;
 }
 
 .arr-pos {
@@ -229,35 +229,42 @@
 
 
 .slick-respon,
-.slick-respon2 {
+.slick-respon2,
+.slick-customer {
     margin-left: 0 !important;
 }
 
 .slick-respon .slick-dots,
-.slick-respon2 .slick-dots {
+.slick-respon2 .slick-dots,
+.slick-customer .slick-dots {
     bottom: -70px;
     left: 200px;
 }
 
 .slick-respon .slick-dots button::before,
-.slick-respon2 .slick-dots button::before {
+.slick-respon2 .slick-dots button::before,
+.slick-customer .slick-dots button::before {
     color: var(--my-purple) !important;
 }
 
 .slick-resp-nav .slick-prev,
 .slick-resp-nav .slick-next,
 .slick-resp2-nav .slick-prev,
-.slick-resp2-nav .slick-next {
+.slick-resp2-nav .slick-next,
+.slick-customer-nav .slick-prev,
+.slick-customer-nav .slick-next {
     top: 33px;
 }
 
 .slick-resp-nav .slick-prev,
-.slick-resp2-nav .slick-prev {
+.slick-resp2-nav .slick-prev,
+.slick-customer-nav .slick-prev {
     bottom: -132px;
 }
 
 .slick-resp-nav .slick-prev::before,
-.slick-resp2-nav .slick-prev::before {
+.slick-resp2-nav .slick-prev::before,
+.slick-customer-nav .slick-prev::before {
     content: url('../../assets/icon/arrow-left-purple.svg');
     position: absolute;
     left: 10px !important;
@@ -265,7 +272,8 @@
 }
 
 .slick-resp-nav .slick-next::before,
-.slick-resp2-nav .slick-next::before {
+.slick-resp2-nav .slick-next::before,
+.slick-customer-nav .slick-next::before {
     content: url('../../assets/icon/arrow-right-purple.svg');
     position: absolute;
     left: 10px !important;
@@ -275,19 +283,23 @@
 .slick-resp-nav .slick-prev::before,
 .slick-resp-nav .slick-next::before,
 .slick-resp2-nav .slick-prev::before,
-.slick-resp2-nav .slick-next::before {
+.slick-resp2-nav .slick-next::before,
+.slick-customer-nav .slick-prev::before,
+.slick-customer-nav .slick-next::before {
     position: absolute;
     left: 15px;
     top: 0 !important;
 }
 
 .slick-resp-nav .slick-disabled,
-.slick-resp2-nav .slick-disabled {
+.slick-resp2-nav .slick-disabled ,
+.slick-customer-nav .slick-disabled {
     opacity: .6;
 }
 
 .slick-resp-nav .slick-prev,
-.slick-resp2-nav .slick-prev {
+.slick-resp2-nav .slick-prev,
+.slick-customer-nav .slick-prev {
     margin-left: -8px;
 }
 
@@ -296,7 +308,8 @@
 }
 
 #grade-at-sampoerna .slick-respon,
-#campuses .slick-respon2 {
+#campuses .slick-respon2,
+#customer .slick-customer {
     margin-inline: -38px !important;
 }
 
@@ -559,19 +572,23 @@
     }
 
     #grade-at-sampoerna .slick-respon,
-    #campuses .slick-respon2 {
+    #campuses .slick-respon2,
+    #customer .slick-customer {
         margin-inline: 0 !important;
     }
 
     .slick-respon .slick-dots,
-    .slick-respon2 .slick-dots {
+    .slick-respon2 .slick-dots,
+    .slick-customer .slick-dots {
         left: 0;
     }
 
     .slick-resp-nav .slick-prev::before,
     .slick-resp-nav .slick-next::before,
     .slick-resp2-nav .slick-prev::before,
-    .slick-resp2-nav .slick-next::before {
+    .slick-resp2-nav .slick-next::before,
+    .slick-customer-nav .slick-prev::before,
+    .slick-customer-nav .slick-next::before {
         left: -20px !important;
     }
 
