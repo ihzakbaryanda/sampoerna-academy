@@ -300,57 +300,69 @@
     margin-inline: -38px !important;
 }
 
+.title-section {
+    z-index: 10 !important;
+}
 
 #grade-at-sampoerna .slick-list,
 #campuses .slick-list {
     overflow: visible;
 }
 
-.background-left-overflow-hidden{
-background-color: var(--my-grey);
-height: 100%;
-width: 40vw;
-position: absolute;
-z-index: 3;
-left: 0;
-transform: translateX(-100%);
-bottom: 0;
+
+.background-left-overflow-hidden {
+    background-color: var(--my-grey);
+    height: 100%;
+    min-width: 850px;
+    width: 10000px;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    transform: translateX(-100.27%);
+    bottom: 0;
 }
+
+
 
 /* desktop */
 @media screen and (max-width:992px) {
-    .slick-respon .card {
+    /* .slick-respon .card {
         margin-right: 15px;
-    }
+    } */
 
     .header-home {
         height: 150px !important;
         padding-bottom: 10px;
     }
 
+    .background-left-overflow-hidden {
+        transform: translateX(-1200%);
+
+    }
 
 }
 
 /* desktop 14inch */
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
     .container {
-        padding-inline: 70px;
+        /* padding-inline: 70px; */
     }
 
     .margin-minus {
         margin-inline: -50px;
     }
 
+    /* 
     .slick-respon,
     .slick-respon2 {
         margin-left: 55px !important;
-    }
+    } */
 }
 
 /* desktop keatas */
 @media screen and (min-width: 1024px) {
     .l-padding {
-        padding: 40px 3px 45px 35px;
+        padding: 35px 0  35px 40px;
     }
 }
 
@@ -361,8 +373,8 @@ bottom: 0;
     #campuses .slick-list {
         overflow: hidden;
     }
-    
-    #academy-highlights .row{
+
+    #academy-highlights .row {
         margin-inline: 0 !important;
     }
 
@@ -417,10 +429,10 @@ bottom: 0;
         display: none;
     }
 
-    .slick-respon,
+    /* .slick-respon,
     .slick-respon2 {
         margin-left: 25px !important;
-    }
+    } */
 
     .nav-carousel {
         padding-top: 30px;
