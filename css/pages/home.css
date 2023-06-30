@@ -222,6 +222,11 @@
     padding: 13px, 20px, 13px, 20px;
 }
 
+.btn-contact-us {
+    width: 192px;
+    padding: 12px 20px;
+}
+
 /* desktop */
 @media screen and (max-width:992px) {
     .slick-respon .card {
