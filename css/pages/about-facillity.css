@@ -1,0 +1,155 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+
+/* end global */
+
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+/* section school building */
+.card-building {
+    width: 281px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card-building .card-content {
+    padding-inline: 35px;
+    padding-block: 30px;
+}
+
+/* section CTA */
+.cta-wrapper {
+    gap: 20px;
+}
+
+@media screen and (max-width:991px) {
+
+    /* global */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 25px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    /* end global */
+
+
+    .jumbotron-banner {
+        padding-inline: 25px;
+        padding-block: 25px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    /* section school building */
+    .card-building {
+        width: 192px;
+        margin-right: 13.5px;
+    }
+
+    .card-building .card-content {
+        padding: 24px;
+    }
+
+    .card-building .card-content h5 {
+        font-size: 14px;
+
+    }
+
+    /* section CTA */
+    .cta-wrapper {
+        justify-content: start !important;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+
+
+/* slick caorusel custom */
+.slick-wrapper {
+    position: relative;
+}
+
+.slick-respon {
+    margin-right: -5vw;
+}
+
+.slick-nav {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+}
+
+.slick-dots {
+    display: flex;
+    left: 300px;
+    width: fit-content;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-respon-arrow {
+    position: absolute;
+    right: 300px;
+    width: 25px;
+}
+
+.slick-prev:before {
+    content: url('../../assets/icon/arrow-left-purple.svg');
+}
+
+.slick-next:before {
+    content: url('../../assets/icon/arrow-right-purple.svg');
+}
+
+@media screen and (max-width:991px) {
+    .slick-dots {
+        left: 0;
+    }
+
+    .slick-respon-arrow {
+        right: 33px;
+    }
+}
