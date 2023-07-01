@@ -28,6 +28,15 @@ h2 {
     padding-inline: 78px;
 }
 
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+}
+
+
 .pill-navigation {
     margin-block: 40px;
 }
@@ -72,8 +81,16 @@ h2 {
 
 
     .jumbotron-banner {
-        padding-inline: 25px;
-        padding-block: 25px;
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
     }
 
     .pill-navigation {
