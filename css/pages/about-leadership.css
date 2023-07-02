@@ -1,3 +1,49 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+
+/* end global */
+
+
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+
+
 .person-img {
     position: absolute;
     right: 0;
