@@ -1,3 +1,49 @@
+/* shared aboout-component */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+/* end shared */
+
+
+
 .my-jumbotron {
     border-bottom: 18px solid var(--my-red);
     position: relative;
@@ -12,13 +58,109 @@
     bottom: 0;
 }
 
+/* section card profile */
+.card-profile {
+    padding: 43px;
+    height: 304px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card-profile .image-wrapper {
+    width: 349px;
+}
+
+.card-profile .card-image {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    height: 100%;
+}
+
+.card-profile .profile-name {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card-profile .profile-jabatan,
+.card-profile .profile-location {
+    font-size: 20px;
+}
+
+.card-profile .card-content {}
+
+
 /* mobile */
 @media screen and (max-width:991px) {
-    .img-profile {
-        width: 200px !important;
+
+    /* shared about-component */
+    h2 {
+        font-size: 25px;
     }
 
-    .card-body.detail-profile {
-        margin-top: 0 !important;
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 25px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    /* end shared-component */
+
+    /* section card-profile */
+    .card-profile {
+        flex-wrap: wrap;
+        padding: 35px 25px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card-profile .profile-name {
+        font-size: 16px;
+        margin-block: 10px;
+    }
+
+    .card-profile .profile-location,
+    .card-profile .profile-jabatan {
+        display: inline;
+        font-size: 14px;
+    }
+
+    .card-profile .image-wrapper {
+        width: 100%;
+        height: 94px;
+        position: relative;
+    }
+
+    .card-profile .card-image {
+        width: 115px;
+        height: 94px;
+        top: 0;
+        left: -29px;
     }
 }

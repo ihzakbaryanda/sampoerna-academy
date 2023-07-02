@@ -19,10 +19,6 @@ h2 {
     margin-inline: auto;
 }
 
-
-/* end global */
-
-
 .jumbotron-banner {
     padding-block: 30px;
     padding-inline: 78px;
@@ -30,16 +26,21 @@ h2 {
 
 .my-jumbotron .subtitle {
     margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .my-jumbotron .title {
     font-size: 30px;
+    font-weight: 400;
 }
 
 
 .pill-navigation {
     margin-block: 40px;
 }
+
+/* end global */
 
 /* section school building */
 .card-building {
@@ -53,6 +54,32 @@ h2 {
     padding-block: 30px;
 }
 
+/* section facilities 6 academy */
+.card-facillity {
+    background-color: var(--my-purple);
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    height: 100%;
+}
+
+.facillity-item {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+.card-facillity>p {
+    font-size: 22px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* end 6 academy */
 /* section CTA */
 .cta-wrapper {
     gap: 20px;
@@ -87,6 +114,7 @@ h2 {
 
     .my-jumbotron .subtitle {
         margin-bottom: 14px;
+        font-size: 14px;
     }
 
     .my-jumbotron .title {
@@ -112,6 +140,17 @@ h2 {
 
     }
 
+    /* section 6 academy */
+    .facillity-item {
+        padding-inline: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-facillity>p {
+        font-size: 16px;
+    }
+
+    /* end 6 academy */
     /* section CTA */
     .cta-wrapper {
         justify-content: start !important;

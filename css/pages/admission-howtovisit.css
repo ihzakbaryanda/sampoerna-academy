@@ -1,0 +1,114 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+/* end global */
+
+/* section fill form */
+input,
+select {
+    padding: 12px 16px !important;
+}
+
+.btn-submit {
+    padding: 12px 16px;
+    width: 192px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* end fill form */
+
+/* section contact */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media screen and (max-width:991px) {
+
+    /* global */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 20px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    /* end global */
+
+    /* section fill form */
+    .btn-submit {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* end fill form */
+}
