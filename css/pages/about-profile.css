@@ -33,6 +33,7 @@ h2 {
 .my-jumbotron .title {
     font-size: 30px;
     font-weight: 400;
+    line-height: 45px;
 }
 
 
@@ -41,8 +42,6 @@ h2 {
 }
 
 /* end shared */
-
-
 
 .my-jumbotron {
     border-bottom: 18px solid var(--my-red);
@@ -56,6 +55,17 @@ h2 {
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.mask-jumbotron h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.mask-jumbotron .btn-back {
+    margin-left: 77px;
 }
 
 /* section card profile */
@@ -89,8 +99,16 @@ h2 {
     font-size: 20px;
 }
 
-.card-profile .card-content {}
+/* sosmed section */
+.wrapper-sosmed {
+    display: flex;
+    justify-content: center;
+}
 
+.wrapper-sosmed .sosmed-item {
+    justify-content: center;
+    margin-bottom: 0;
+}
 
 /* mobile */
 @media screen and (max-width:991px) {
@@ -132,6 +150,11 @@ h2 {
 
     /* end shared-component */
 
+    .mask-jumbotron .btn-back {
+        margin-left: 21px;
+        padding-right: 35px;
+    }
+
     /* section card-profile */
     .card-profile {
         flex-wrap: wrap;
@@ -162,5 +185,24 @@ h2 {
         height: 94px;
         top: 0;
         left: -29px;
+    }
+
+    .profil-text {
+        font-size: 14px;
+    }
+
+    /* section sosmed */
+    .wrapper-sosmed {
+        justify-content: start;
+    }
+
+    .wrapper-sosmed .sosmed-item {
+        justify-content: start;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .wrapper-sosmed .sosmed-item img {
+        width: 28px;
     }
 }
