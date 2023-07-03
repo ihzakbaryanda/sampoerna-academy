@@ -19,7 +19,6 @@ h2 {
     margin-inline: auto;
 }
 
-
 .jumbotron-banner {
     padding-block: 30px;
     padding-inline: 78px;
@@ -43,10 +42,17 @@ h2 {
 
 /* end global */
 
-/* section fill form */
-input,
-select {
+/* section form */
+.section-form .form-control {
     padding: 12px 16px !important;
+    background-color: transparent;
+    border-color: #77777780;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.section-form textarea.form-control {
+    height: 118px;
 }
 
 .btn-submit {
@@ -56,14 +62,6 @@ select {
     margin-top: 30px;
 }
 
-/* end fill form */
-
-/* section contact */
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 @media screen and (max-width:991px) {
 
@@ -81,7 +79,7 @@ select {
     }
 
     .mt-80 {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .jumbotron-banner {
@@ -103,12 +101,30 @@ select {
     }
 
     /* end global */
+    .contact-img {
+        height: 170px;
+        object-fit: cover;
+    }
 
-    /* section fill form */
-    .btn-submit {
-        width: 100%;
+    .section-container p {
         font-size: 14px;
     }
 
-    /* end fill form */
+    .section-form.mt-30 {
+        margin-top: 50px;
+    }
+
+    .section-form .form-control {
+        font-size: 12px;
+    }
+
+
+    .btn-submit {
+        width: 100%;
+        max-width: 137px;
+        font-size: 10px;
+        padding: 10px 13px;
+        margin-top: 25px;
+        background-color: var(--my-red);
+    }
 }

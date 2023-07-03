@@ -33,7 +33,6 @@ h2 {
 .my-jumbotron .title {
     font-size: 30px;
     font-weight: 400;
-    line-height: 45px;
 }
 
 
@@ -105,9 +104,6 @@ h2 {
         margin-top: 60px;
     }
 
-    /* end global */
-
-
     .jumbotron-banner {
         padding-inline: 25px !important;
         padding-block: 17px !important;
@@ -125,6 +121,11 @@ h2 {
     .pill-navigation {
         margin-block: 20px;
     }
+
+    /* end global */
+
+
+
 
     /* section school building */
     .card-building {
