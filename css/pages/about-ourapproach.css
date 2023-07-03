@@ -1,0 +1,202 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+/* end global */
+
+/* section samperna diffrence */
+.wrapper-diffrence {
+    padding-inline: 5px;
+}
+
+.card-diffrence {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--my-red);
+
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 24px 67px;
+}
+
+.card-diffrence>h5 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+/* section apporahc */
+.approach-wrapper {
+    margin-top: 25px;
+}
+
+.card-approach {
+    display: flex;
+    background-color: var(--my-purple);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.approach-img {
+    width: 383px;
+    height: 289px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.approach-title {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.li-approach li {
+    margin-bottom: 7px;
+}
+
+/* section steam project */
+.wrapper-project {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.card-project {
+    background-color: var(--my-purple);
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    height: 100%;
+}
+
+.card-project>img {
+    height: 199px;
+}
+
+.card-project .card-content {
+    padding: 20px;
+}
+
+.btn-seemore {
+    width: 100%;
+    max-width: 396px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-inline: auto;
+    display: block;
+    padding: 12px 20px;
+}
+
+@media screen and (max-width:991px) {
+
+    /* global */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 21px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    /* end global */
+
+    /* section sampoerna diffrence */
+    .card-diffrence {
+        padding: 20px 25px;
+    }
+
+    .card-diffrence img {
+        width: 100%;
+    }
+
+    /* secton approach */
+    .card-approach {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .approach-img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .approach-title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .li-approach {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+}

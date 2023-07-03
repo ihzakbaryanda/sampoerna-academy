@@ -42,6 +42,78 @@ h2 {
 
 /* end shared */
 
+/* modal leader*/
+.modal-leader {
+    background-color: #F1F2F2;
+}
+
+.modal-leader .modal-body {
+    padding: 0 54px;
+}
+
+.wrapper-leader {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-leader .banner-leader {
+    background-color: var(--my-purple);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+    overflow: hidden;
+}
+
+.banner-leader .wrapper-person {
+    display: flex;
+}
+
+.modal-leader .wrapper-person .img-wrapper {
+    width: 300px;
+    position: relative;
+}
+
+.modal-leader .img-wrapper img {
+    width: 100%;
+    position: absolute;
+    bottom: -80px;
+    left: -68px;
+}
+
+.modal-leader .leader-name {
+    margin-bottom: 20px;
+}
+
+.modal-leader .banner-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-leader .leader-education {
+    background-color: white;
+    padding: 30px;
+}
+
+.modal-leader .education-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-leader .education-item {
+    border: 1px solid var(--my-purple);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 12px;
+}
+
+.leader-info {
+    margin-bottom: 60px;
+}
+
+/* end modal */
+
 
 /* section director message */
 .card-message {
@@ -188,6 +260,48 @@ h2 {
 
     .slick-leader {
         margin-right: -25px;
+    }
+
+    /* section modal */
+    .wrapper-leader {
+        border-radius: 0;
+        margin-inline: -54px;
+        overflow: hidden;
+    }
+
+    .modal-leader .banner-leader {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .banner-leader .wrapper-person {
+        flex-wrap: wrap;
+    }
+
+    .modal-leader .wrapper-person .img-wrapper {
+        width: 300px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .modal-leader .img-wrapper img {
+        width: 200px;
+        position: static;
+    }
+
+    .modal-leader .banner-contact {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .modal-leader .education-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .leader-info {
+        margin-inline: -25px;
     }
 }
 
