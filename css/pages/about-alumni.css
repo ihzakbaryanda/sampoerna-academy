@@ -1,3 +1,8 @@
+/* global */
+.txt-lg-justify {
+    text-align: justify;
+}
+
 /* section testimony about  */
 .wrapper-video {
     width: 100%;
@@ -106,6 +111,10 @@
     .button-showmore {
         width: 100%;
         font-size: 11px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
     }
 
     /* end  global */

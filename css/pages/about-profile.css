@@ -40,6 +40,10 @@ h2 {
     margin-block: 40px;
 }
 
+.txt-lg-justify {
+    text-align: justify;
+}
+
 /* end shared */
 
 .my-jumbotron {
@@ -173,6 +177,10 @@ h2 {
         margin-block: 20px;
     }
 
+    .txt-lg-justify {
+        text-align: start;
+    }
+
     /* end shared-component */
 
     .mask-jumbotron .btn-back {
@@ -196,6 +204,11 @@ h2 {
     .card-profile .profile-name {
         font-size: 16px;
         margin-block: 10px;
+    }
+
+    .profil-education,
+    .card-education {
+        width: 100%;
     }
 
     .card-profile .profile-location,

@@ -40,6 +40,11 @@ h2 {
     margin-block: 40px;
 }
 
+.txt-lg-justify {
+    text-align: justify;
+}
+
+
 /* end global */
 
 /* section samperna diffrence */
@@ -166,6 +171,10 @@ h2 {
 
     .pill-navigation {
         margin-block: 20px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
     }
 
     /* end global */

@@ -35,6 +35,10 @@ h2 {
     font-weight: 400;
 }
 
+.txt-lg-justify {
+    text-align: justify;
+}
+
 
 .pill-navigation {
     margin-block: 40px;
@@ -235,6 +239,11 @@ h2 {
     .pill-navigation {
         margin-block: 20px;
     }
+
+    .txt-lg-justify {
+        text-align: start;
+    }
+
 
     /* end shared-component */
 
