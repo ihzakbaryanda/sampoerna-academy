@@ -1,3 +1,15 @@
+/* section testimony about  */
+.wrapper-video {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.wrapper-video>* {
+    width: 100%;
+}
+
+/* end */
 .card-testimony {
     padding-block: 23px;
     padding-inline: 20px;

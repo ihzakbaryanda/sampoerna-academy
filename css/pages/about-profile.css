@@ -68,12 +68,18 @@ h2 {
 }
 
 /* section card profile */
+.wrapper-content {
+    display: flex;
+    gap: 60px;
+    justify-content: start;
+}
+
 .card-profile {
     padding: 43px;
     height: 304px;
     border-radius: 10px;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: relative;
 }
 
@@ -97,6 +103,26 @@ h2 {
 .card-profile .profile-location {
     font-size: 20px;
 }
+
+.profil-education,
+.card-education {
+    width: 292.26px;
+    font-size: 12px !important;
+}
+
+.profil-education h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.profil-education .card-education {
+    padding: 30px 22px;
+}
+
+/* .profil-text {
+    width: 656px;
+} */
 
 /* sosmed section */
 .wrapper-sosmed {
@@ -155,6 +181,11 @@ h2 {
     }
 
     /* section card-profile */
+    .wrapper-content {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
     .card-profile {
         flex-wrap: wrap;
         padding: 35px 25px;
