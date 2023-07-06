@@ -556,9 +556,47 @@ h2 {
     }
 
     /* section Staff & Faculty at Sampoerna Academy */
+    .section-staff {
+        margin-top: -1px;
+        background-color: var(--my-purple);
+        padding-block: 42px;
+    }
+
+    .section-staff hr.just-mobile {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 42px;
+    }
+
+    .section-staff>h2 {
+        color: white;
+    }
+
     .wrapper-staff {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 40px;
+    }
+
+    .wrapper-staff .circle-card {
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .wrapper-staff .circle-card>img {
+        filter: brightness(99);
+        width: 66px;
+        height: 66px;
+    }
+
+    .wrapper-staff .circle-card .text-wrapper>* {
+        color: white;
+    }
+
+    .wrapper-staff .circle-card .text-wrapper>b {
+        font-size: 24px;
     }
 
     /* Technology at Sampoerna Academy */
