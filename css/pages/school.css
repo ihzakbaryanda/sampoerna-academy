@@ -1,0 +1,39 @@
+#academic-affairs p {
+    text-align: justify;
+}
+
+.curriculum-card {
+    width: 159px;
+    height: 193px;
+    background-color: var(--my-purple);
+    border-radius: 10px;
+    padding: 22px 25px 32px;
+    margin-right: 11px;
+}
+
+.curriculum-card p {
+    font-size: 18px;
+    margin-top: 18px;
+    width: 84px;
+}
+
+#curriculum ul {
+    margin-top: 30px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#curriculum ul li {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#curriculum-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+#curriculum-lists ul:first-child {
+    margin-right: 20px;
+}

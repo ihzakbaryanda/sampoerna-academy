@@ -1,0 +1,48 @@
+.my-jumbotron h2 {
+    font-weight: lighter;
+}
+
+#job-search .form-control,
+#job-search .form-select {
+    background: none;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#job-search .form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+#job-search .form-control :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+#job-search .form-control ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+#job-list li {
+    width: 33%;
+} 
+
+.nav-pills button {
+    width: 111px;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    border: 1px solid white;
+}
+
+.nav-pills .nav-link.active {
+    border-color: var(--my-red);
+    position: relative;
+    background-color: var(--my-red) !important;
+}

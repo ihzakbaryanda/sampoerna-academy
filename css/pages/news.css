@@ -1,0 +1,25 @@
+#news-event-tab div {
+    display: grid;
+    place-items: center;
+}
+
+.nav-pills button {
+    width: 111px;
+    color: white;
+}
+
+.nav-pills .nav-link {
+    border: 1px solid white;
+}
+
+.nav-pills .nav-link.active {
+    border-color: var(--my-red);
+    position: relative;
+    background-color: var(--my-red) !important;
+}
+
+#news-post .bg-white {
+    width: 30%;
+    font-size: 13px;
+    margin-right: 20px;
+}
