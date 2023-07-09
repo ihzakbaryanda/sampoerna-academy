@@ -23,3 +23,10 @@
     font-size: 13px;
     margin-right: 20px;
 }
+
+@media screen and (max-width:991px) {
+    #news-post .bg-white {
+        width: 45%;
+        margin: 10px;
+    }
+}

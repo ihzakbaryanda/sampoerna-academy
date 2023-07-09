@@ -13,3 +13,12 @@
     text-align: left;
     padding-left: 25px;
 }
+
+@media screen and (max-width:991px) { 
+    #steam-gallery-list {
+        margin: auto !important;
+    }
+    #steam-gallery-list li {
+        width: 47%;
+    }
+}

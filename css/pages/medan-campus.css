@@ -193,6 +193,9 @@
 
 /* mobile */
 @media screen and (max-width:991px) {
+    body {
+        overflow-x: hidden;
+    }
     .my-jumbotron h5 {
         font-size: 14px;
     }
@@ -201,6 +204,58 @@
         font-size: 16px;
     }
 
+    .my-jumbotron ul {
+        display: none !important;
+    }
+
+    .my-jumbotron .bg-purple .container {
+        display: block !important;
+    }
+
+    .my-jumbotron .bg-purple .container  > div:first-child {
+        border: none;
+        border-bottom: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    #academy-grade {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    #academy-grade ul,
+    #campus-facillities ul{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #academy-grade ul li {
+        width: 90%;
+    }
+
+    #academy-grade {
+        height: auto;
+    }
+
+    #campus-facillities ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #campus-location .d-flex{
+        display: block !important;
+    }
+
+    #campus-location .d-flex .w-50,
+    iframe {
+        width: 98% !important;
+    }
+
+
+    #campus-facillities ul li img {
+        width: 100%;
+    }
     .core-belief .card {
         padding: 0 !important;
         background-color: transparent;

@@ -65,3 +65,22 @@
     width: 146px;
     height: 54px;
 }
+
+@media screen and (max-width:991px) { 
+    #form>div {
+        width: 100%;
+    }
+    #form>div img:last-child {
+        display: none;
+    }
+
+    #form>div .w-75,
+    #form>div .w-50 {
+        width: 100% !important;
+    }
+
+    #recent-post {
+        margin-top: 30px;
+    }
+
+}

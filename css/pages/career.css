@@ -30,7 +30,7 @@
 
 #job-list li {
     width: 33%;
-} 
+}
 
 .nav-pills button {
     width: 111px;
@@ -45,4 +45,26 @@
     border-color: var(--my-red);
     position: relative;
     background-color: var(--my-red) !important;
+}
+
+@media screen and (max-width:991px) {
+    #job-search{
+        flex-wrap: nowrap;
+    }
+
+    #job-search > * {
+        width: 50%;
+    }
+    #job-search > div {
+        display: block !important;
+    }
+
+    #job-list li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #job-search input {
+        margin-bottom: 20px;
+    }
 }
