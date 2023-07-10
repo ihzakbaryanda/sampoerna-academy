@@ -1,7 +1,201 @@
-.person-img {
+/* shared aboout-component */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.txt-lg-justify {
+    text-align: justify;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+/* end shared */
+
+/* modal leader*/
+.modal-leader {
+    background-color: #F1F2F2;
+}
+
+.modal-leader .modal-body {
+    padding: 0 54px;
+}
+
+.wrapper-leader {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-leader .banner-leader {
+    background-color: var(--my-purple);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+    overflow: hidden;
+}
+
+.banner-leader .wrapper-person {
+    display: flex;
+}
+
+.modal-leader .wrapper-person .img-wrapper {
+    width: 300px;
+    position: relative;
+}
+
+.modal-leader .img-wrapper img {
+    width: 100%;
+    position: absolute;
+    bottom: -80px;
+    left: -68px;
+}
+
+.modal-leader .leader-name {
+    margin-bottom: 20px;
+}
+
+.modal-leader .banner-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-leader .leader-education {
+    background-color: white;
+    padding: 30px;
+}
+
+.modal-leader .education-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.modal-leader .education-item {
+    border: 1px solid var(--my-purple);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 12px;
+    color: var(--my-purple);
+}
+
+.leader-info {
+    margin-bottom: 60px;
+}
+
+/* end modal */
+
+
+/* section director message */
+.card-message {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-message .card-content {
+    padding: 40px;
+    background-color: var(--my-purple);
+}
+
+.card-message .card-author {
+    padding: 21px 40px;
+    background-color: white;
+    color: var(--my-red);
+}
+
+/* end section director message */
+
+/* section leaders */
+.card-leader {
+    width: 318px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    position: relative;
+    padding: 19px;
+}
+
+.card-leader .role {
+    margin-bottom: 30px;
+}
+
+.card-leader .role .jabatan,
+.card-leader .role .location {
+    font-size: 11px;
+    margin-bottom: 0;
+}
+
+.card-leader .card-content {
+    width: 70%;
+}
+
+.card-leader .card-image {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.card-leader .jabatan {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.card-leader .read-more {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.card-leader .arrow-readmore {
+    width: 10px;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+/* end leaders */
+
+/* section principal & curriculum */
+.slick-leader {
+    margin-bottom: 13px;
+}
+
+.slick-leader .card-leader {
+    margin-right: 11px;
 }
 
 .nav-pills .nav-link.active {
@@ -10,21 +204,134 @@
 
 /* mobile */
 @media screen and (max-width:991px) {
-    .card-message {
+
+    /* shared about-component */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 21px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
+    }
+
+
+    /* end shared-component */
+
+    .card-message .card-content {
         background-color: transparent;
+        padding: 0px;
+        padding-bottom: 30px;
     }
 
-    .card-message .card-body {
-        padding-inline: 0;
-        padding-block: 15px !important;
-    }
-
-    .card-message .card-footer {
-        padding: 0 !important;
-        background-color: transparent !important;
+    .card-message .card-author {
+        background-color: transparent;
+        padding: 0;
     }
 
     .card-message p {
         color: black;
     }
+
+    /* leader section */
+    .card-leader {
+        width: 100%;
+        max-width: 284px;
+    }
+
+    .slick-leader {
+        margin-right: -25px;
+    }
+
+    /* section modal */
+    .wrapper-leader {
+        border-radius: 0;
+        margin-inline: -54px;
+        overflow: hidden;
+    }
+
+    .modal-leader .banner-leader {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .banner-leader .wrapper-person {
+        flex-wrap: wrap;
+    }
+
+    .modal-leader .wrapper-person .img-wrapper {
+        width: 300px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .modal-leader .img-wrapper img {
+        width: 200px;
+        position: static;
+    }
+
+    .modal-leader .banner-contact {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        gap: 10px;
+    }
+
+    .modal-leader .education-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .leader-info {
+        margin-inline: -25px;
+    }
+}
+
+/* reset bootstrap */
+.btn-group.btn-tab-principal .btn.active {
+    background-color: var(--my-purple);
+    color: white;
+}
+
+.btn-group.btn-tab-principal {
+    width: 100%;
+    max-width: 306px;
+}
+
+.btn-group.btn-tab-principal .btn {
+    border-color: var(--my-purple);
+    color: var(--my-purple);
+}
+
+.btn-group.btn-tab-principal .btn:hover {
+    background-color: var(--my-purple);
+    color: white;
 }

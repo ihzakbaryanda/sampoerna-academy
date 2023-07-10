@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sampoerna Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick-1.8.1/slick/slick-theme.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/custom-bootstrap.css">
+
+    <!-- pages -->
+    <link rel="stylesheet" href="css/pages/about.css">
+    <link rel="stylesheet" href="css/pages/about-facillity.css">
+    <link rel="stylesheet" href="css/pages/about-sa.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-white" style="border-radius: 0 0 30px 30px;">
+            <div class="container py-2">
+                <a class="navbar-brand mb-1" href="home.html">
+                    <img src="assets/images/logo-sampoerna.png" width="129px" alt="">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="assets/icon/hambbar.svg" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html">About Sampoerna Academy</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/our-approach/">Our Approach</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/leadership/">Leadership</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/the-power-of-integrated-system/">The
+                                        Power of Integrated System</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/sa-in-numbers/">SA in Numbers</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/contact-us/">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Schools
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/preschool/">Pre School</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/elementary-school/">Elementary
+                                        School</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/middle-school/">Middle School</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/high-school/">High School</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Campuses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/jakarta-campus/">L'Avenue
+                                        Campus</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/bsd-campus/">BS Campus</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/medan-campus/">Medan Campus</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/sentul-campus/">Sentul Campus</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/surabaya-campus/">Surabaya
+                                        Campus</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/bsd-campus/">Virtual Tour</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Admissions
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./admission.html">Sampoerna Academy Admission</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./admission-howToApply.html">How to Apply</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/">Schedule a
+                                        Visit</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Activities
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/news/">News</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.sampoernaacademy.sch.id/en/news/">Event</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://sampoernaschoolssystem.com/en/jobs/" class="nav-link">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://steamindonesia.id/" class="nav-link">Steam</a>
+                        </li>
+                    </ul>
+
+                    <div style="white-space: nowrap;">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search me-2" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg> -->
+                        <button class="btn btn-outline-danger px-4" style="font-size: 12px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-globe" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                            </svg>
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <!--  -->
+        <section class="my-jumbotron">
+            <img src="assets/image/sa-jumbotron.jpg" alt="" class="w-100"
+                style="object-fit: cover;min-height: 431px; max-height: 431px;">
+            <div class="bg-purple w-100 jumbotron-banner">
+                <div class="text-white">
+                    <h5 class="subtitle">SA in Numbers</h5>
+                    <h2 class="title">Empowering Students with Technology-Driven Curriculum at Sampoerna Academy</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAB -->
+        <div class="just-mobile shadow float-button">
+            <div class="w-100 d-flex justify-content-center" style="position: absolute; bottom: 60px;">
+                <div class="btn-group rounded" role="group" aria-label="Basic example"
+                    style="position: absolute;gap: 2px;">
+                    <a href="admission.html"
+                        class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                        style="flex-direction: column;">
+                        <img src="assets/icon/admisson-small.svg" alt="">
+                        <span>Admission</span>
+                    </a>
+                    <a href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/"
+                        class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                        style="flex-direction: column;">
+                        <img src="assets/icon/schedule-small.svg" alt="">
+                        <span>Schedule a Visit</span>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=6281234367234&text=Hi,%20I%27d%20like%20to%20find%20out%20more%20about%20Sampoerna%20Academy"
+                        class="btn btn-primary fs-12 d-flex justify-content-center align-items-center"
+                        style="flex-direction: column;">
+                        <img src="assets/icon/whatsapp.svg" class="fs-12" alt="">
+                        <span>Whatsapp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="just-desktop shadow float-button">
+            <div class="btn-group-vertical rounded" role="group" aria-label="Vertical button group"
+                style="max-width: 79px; gap: 3px;">
+                <a href="admission.html"
+                    class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/admisson-small.svg" alt="">
+                    <span>Admission</span>
+                </a>
+                <a href="https://www.sampoernaacademy.sch.id/en/schedule-a-visit/"
+                    class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/schedule-small.svg" alt="">
+                    <span>Schedule a Visit</span>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=6281234367234&text=Hi,%20I%27d%20like%20to%20find%20out%20more%20about%20Sampoerna%20Academy"
+                    class="btn btn-primary py-3 fs-12 d-flex align-items-center justify-content-center"
+                    style="flex-direction: column;">
+                    <img src="assets/icon/whatsapp.svg" alt="">
+                    <span>Contact Whatsapp</span>
+                </a>
+            </div>
+        </div>
+        <!-- END FAB -->
+
+        <!-- section navigation -->
+        <!-- section navigation -->
+        <section class="container pill-navigation">
+            <div class="nav-slick just-mobile">
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about.html">About Us</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about-ourapproach.html">Our Approach</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about-leadership.html">Leadership</a>
+                <a class="btn me-2 btn-danger rounded-pill" href="about-sa.html">SA in Numbers</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about-contact.html">Contact</a>
+                <a class="btn me-2 btn-outline-danger rounded-pill" href="about-alumni.html">Alumni & Testimonials</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-facillity.html">Facilities</a>
+            </div>
+            <div class="d-flex justify-content-center gap-2 just-desktop">
+                <a class="btn btn-outline-danger rounded-pill" href="about.html">About Us</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-ourapproach.html">Our Approach</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-leadership.html">Leadership</a>
+                <a class="btn btn-danger rounded-pill" href="about-sa.html">SA in Numbers</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-contact.html">Contact</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-alumni.html">Alumni & Testimonials</a>
+                <a class="btn btn-outline-danger rounded-pill" href="about-facillity.html">Facilities</a>
+            </div>
+        </section>
+
+        <hr class="just-desktop mt-40 mb-0">
+
+
+        <!-- section sampoerna student -->
+        <section class="section-container mt-100">
+            <h2 class="fw-bold text-purple">Sampoerna Academy Students</h2>
+            <div class="wrapper-card-students mt-30">
+                <div class="card-logo">
+                    <img src="assets/icon/sa-students.svg" alt="">
+                </div>
+                <div class="card-content">
+                    <div class="wrapper-content">
+                        <h5 class="text-purple fw-bold">Great Student From Sampoerna Academy</h5>
+                        <p class="text-purple text-jumlah mt-30">1.994 Students</p>
+                        <p class="text-purple text-jumlah">15 Nationalities</p>
+                    </div>
+
+                    <div class="wrapper-country mt-30">
+                        <p>Indonesia : 1.927</p>
+                        <p>Asia : 61</p>
+                        <p>Europe : 3</p>
+                        <p>Australia & Pacific : 3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section Staff & Faculty at Sampoerna Academy -->
+        <section class="section-container mt-100 section-staff">
+            <hr class="just-mobile">
+            <h2 class="fw-bold text-purple just-desktop">Staff & Faculty at Sampoerna Academy</h2>
+            <div class="wrapper-staff mt-50">
+                <div class="circle-card">
+                    <img src="assets/icon/total-teacher.svg" alt="">
+                    <div class="text-wrapper">
+                        <b>277</b>
+                        <p>Total Teachers</p>
+                    </div>
+                </div>
+                <div class="circle-card">
+                    <img src="assets/icon/bachelor.svg" alt="">
+                    <div class="text-wrapper">
+                        <b>91%</b>
+                        <p>Bachelor & Master</p>
+                    </div>
+                </div>
+                <div class="circle-card">
+                    <img src="assets/icon/googlecertified.svg" alt="">
+                    <div class="text-wrapper">
+                        <b>72%</b>
+                        <p>Google Certified</p>
+                    </div>
+                </div>
+                <div class="circle-card">
+                    <img src="assets/icon/total-teacher.svg" alt="">
+                    <div class="text-wrapper">
+                        <b>78%</b>
+                        <p>Faculty Retention</p>
+                    </div>
+                </div>
+                <div class="circle-card">
+                    <img src="assets/icon/lecture.svg" alt="">
+                    <div class="text-wrapper">
+                        <b>1:10</b>
+                        <p>Lecture to Student Ratio</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technology at Sampoerna Academy -->
+        <section class="mt-100 section-container">
+            <h2 class="fw-bold text-purple">Technology at Sampoerna Academy</h2>
+            <div class="wrapper-technology ">
+                <div class="card-technology">
+                    <div class="card-icon">
+                        <img src="assets/icon/ipad.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <b>204</b>
+                        <p>ipads</p>
+                    </div>
+                </div>
+                <div class="card-technology">
+                    <div class="card-icon">
+                        <img src="assets/icon/laptop.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <b>39</b>
+                        <p>Laptops</p>
+                    </div>
+                </div>
+                <div class="card-technology">
+                    <div class="card-icon">
+                        <img src="assets/icon/desktop.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <b>143</b>
+                        <p>Desktop Computer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section Number of Languanges Spoken -->
+        <section class="section-languages mt-100">
+            <div class="section-container">
+                <div class="wrapper-content">
+                    <h2>Number of Languanges Spoken</h2>
+                    <h2 class="card-white">15 Languanges</h2>
+                    <p class="mt-30">
+                        With 15 nationalities at Sampoerna Academy, and predominantly using English to communicate with
+                        each other</p>
+                    <div class="wrapper-list">
+                        <ul>
+                            <li>English</li>
+                            <li>Indonesian</li>
+                            <li>Canada</li>
+                            <li>Switzerland</li>
+                            <li>Germany</li>
+                        </ul>
+                        <ul>
+                            <li>China</li>
+                            <li>Korea</li>
+                            <li>Japan</li>
+                            <li>Taiwan</li>
+                            <li>Philippines</li>
+                        </ul>
+                        <ul>
+                            <li>Malaysia</li>
+                            <li>Indonesian</li>
+                            <li>Canada</li>
+                            <li>Switzerland</li>
+                            <li>Germany</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="wrapper-img">
+                    <img src="assets/image/languages-spoken.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- section Sampoerna Academy Superiority -->
+        <section class="section-container mt-100">
+            <h2 class="fw-bold text-purple">Number of Languanges Spoken</h2>
+
+            <div class="wrapper-superiority mt-30">
+                <div class="card-superiorty">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-white.svg" alt="" class="card-icon just-mobile">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-02 1.svg" alt="" class="card-icon just-desktop">
+                    <img src="assets/image/igcse.jpg" alt="" class="card-img">
+                    <div class="wrapper-content">
+                        <b>100%</b>
+                        <p class="mb-0">IGSCE Pass</p>
+                    </div>
+                </div>
+                <div class="card-superiorty">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-white.svg" alt="" class="card-icon just-mobile">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-02 1.svg" alt="" class="card-icon just-desktop">
+                    <img src="assets/image/asa.jpg" alt="" class="card-img">
+                    <div class="wrapper-content">
+                        <b>100%</b>
+                        <p class="mb-0">AS&A Level Pass</p>
+                    </div>
+                </div>
+                <div class="card-superiorty">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-white.svg" alt="" class="card-icon just-mobile">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-02 1.svg" alt="" class="card-icon just-desktop">
+                    <img src="assets/image/college-accept.jpg" alt="" class="card-img">
+                    <div class="wrapper-content">
+                        <b>100%</b>
+                        <p class="mb-0">College Acceptance Rate</p>
+                    </div>
+                </div>
+                <div class="card-superiorty">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-white.svg" alt="" class="card-icon just-mobile">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-02 1.svg" alt="" class="card-icon just-desktop">
+                    <img src="assets/image/national-accep.jpg" alt="" class="card-img">
+                    <div class="wrapper-content">
+                        <b>80%</b>
+                        <p class="mb-0">National University Acceptance Rate</p>
+                    </div>
+                </div>
+                <div class="card-superiorty">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-white.svg" alt="" class="card-icon just-mobile">
+                    <img src="assets/icon/NEW-SA-LOGO_CMYK-02 1.svg" alt="" class="card-icon just-desktop">
+                    <img src="assets/image/igcse.jpg" alt="" class="card-img">
+                    <div class="wrapper-content">
+                        <b>600+</b>
+                        <p class="mb-0">STEAM Project Developed</p>
+                        <button class="btn btn-danger btn-learnmore just-desktop">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section Sampoerna Academy's achievements -->
+        <div class="section-container">
+            <section class="section-academy-achievment mt-100">
+                <h2 class="fw-bold text-purple">Sampoerna Academy's achievements</h2>
+                <div class="slick-wrapper mt-30">
+                    <div class="slick-respon">
+                        <div class="card-achievment">
+                            <img src="assets/image/achievment-1.jpg" alt="">
+                            <p class="mt-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus sem,
+                                vulputate eget sem
+                                a, vehicula tincidunt elit. Fusce metus tortor, ornare ac volutpat vitae, ullamcorper a
+                                lorem. In a nulla dapibus, faucibus nunc ac, accumsan leo. Donec aliquam pretium felis
+                                in eleifend. In aliquet urna et eleifend aliquet. Sed hendrerit justo risus, non
+                                elementum enim efficitur id.</p>
+                        </div>
+                        <div class="card-achievment">
+                            <img src="assets/image/achievment-1.jpg" alt="">
+                            <p class="mt-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut risus sem,
+                                vulputate eget sem
+                                a, vehicula tincidunt elit. Fusce metus tortor, ornare ac volutpat vitae, ullamcorper a
+                                lorem. In a nulla dapibus, faucibus nunc ac, accumsan leo. Donec aliquam pretium felis
+                                in eleifend. In aliquet urna et eleifend aliquet. Sed hendrerit justo risus, non
+                                elementum enim efficitur id.</p>
+                        </div>
+                    </div>
+                    <div class="slick-nav">
+                        <div class="slick-respon-dot"></div>
+                        <div class="slick-respon-arrow"></div>
+                    </div>
+                </div>
+
+                <!-- wmi -->
+                <div class="card-wmi">
+                    <div class="head">
+                        <img src="assets/image/wmi-img.jpg" alt="">
+                        <div class="head-content">
+                            <div class="d-flex title">
+                                <img src="assets/icon/wmi-icon.svg" alt="">
+                                <h3>WMI 2021 Preliminary</h3>
+                            </div>
+                            <div class="d-flex list">
+                                <div class="card-outline-champ">21 Gold</div>
+                                <div class="card-outline-champ">36 Silver</div>
+                                <div class="card-outline-champ">45 Bronze</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foot">
+                        <p class="mb-0">Award & Achievement</p>
+                        <div class="filter">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Category Awards</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Years</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card border -->
+                <div class="row mt-30 wrapper-card-borders">
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">WMI Final 2020</p>
+                                <div class="list-medals">
+                                    <p>1 Silver</p>
+                                    <p>2 Bronze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">SEAMO</p>
+                                <div class="list-medals">
+                                    <p>4 Gold</p>
+                                    <p>3 Silver</p>
+                                    <p>10 Bronze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">SEAMO X Final</p>
+                                <div class="list-medals">
+                                    <p>1 Gold</p>
+                                    <p>2 Bronze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">JISMO Spring 2021</p>
+                                <div class="list-medals">
+                                    <p>1 Rubby</p>
+                                    <p>2 Sapphire</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">Piano Rhapsody</p>
+                                <div class="list-medals">
+                                    <p>2nd Place</p>
+                                    <p>3rd Place</p>
+                                    <p>1 Silver</p>
+                                    <p>1 Bronze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-border">
+                            <img src="assets/icon/champ-circle.svg" alt="">
+                            <div class="card-content">
+                                <p class="fw-bold title">SEAMO X Final</p>
+                                <div class="list-medals">
+                                    <p>1 Gold</p>
+                                    <p>2 Bronze</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-showmore">Show More</button>
+            </section>
+        </div>
+
+        <div class="section-container">
+            <hr class="hr-80 just-mobile">
+        </div>
+
+        <!-- section University Acceptance -->
+        <section class="mt-100 section-univ-acc">
+            <div class="section-container">
+                <h2 class="fw-bold text-purple">University Acceptance</h2>
+            </div>
+            <div class="wrapper-map mt-30">
+                <img src="assets/image/map.png" alt="">
+            </div>
+            <div class="banner-country">
+                <div class="section-container">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>United States America (27)</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="banner-list">
+                <div class="section-container wrapper-list">
+                    <ul>
+                        <li>Michigan State University</li>
+                        <li>The New School Parsons</li>
+                        <li>University State Houston</li>
+                        <li>Oregon State University</li>
+                        <li>University of Toronto</li>
+                        <li>California College of the Arts</li>
+                        <li>Purdue University</li>
+                    </ul>
+                    <ul>
+                        <li>College of San Mateo</li>
+                        <li>University of Wisconin-Madison</li>
+                        <li>Michigan State University</li>
+                        <li>California Polytechnic</li>
+                        <li>Yale University</li>
+                        <li>Cornell University</li>
+                        <li>New York University</li>
+                    </ul>
+                    <ul>
+                        <li>Princeton University</li>
+                        <li>University of Arizona</li>
+                        <li>University of Florida</li>
+                        <li>University of Pennsylvania</li>
+                        <li>University of Washington</li>
+                        <li>Biola University</li>
+                        <li>Penn State University</li>
+                    </ul>
+                    <ul>
+                        <li>University of Kansas</li>
+                        <li>Pasadena City College Los Angeles</li>
+                        <li>Pennsylvania State University-Main Campus</li>
+                        <li>University of Massachusets-Amherst</li>
+                        <li>University of Massachusetts Lowell</li>
+                        <li>University of Illinois at Urbana-Chambaign</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section facillities at sampoerna -->
+        <!-- <section class="section-container mt-80">
+            <div class="section-title">
+                <h6 class="fw-bold">Facilities at Sampoerna Academy</h6>
+                <h2 class="fw-bold text-purple">School Building</h2>
+            </div>
+            <div class="slick-wrapper">
+                <div class="slick-respon">
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                    <div class="mt-30 rounded card card-building bg-purple text-white border-0">
+                        <img src="assets/images/school-building1.jpg" alt="" class="w-100">
+                        <div class=" card-content">
+                            <h5 class="fw-light">School Building L’avenue Campus</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-nav">
+                    <div class="slick-respon-dot"></div>
+                    <div class="slick-respon-arrow"></div>
+                </div>
+            </div>
+        </section> -->
+        <!-- end -->
+
+
+        <!-- section all facillities -->
+        <!-- <section class="section-container">
+            <h2 class="fw-bold text-purple">Facilities Sampoerna Academy <br>(6 Campuses)</h2>
+            <div class="row mt-30">
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/play-room.svg" alt="">
+                        <p class="mb-0">Play Room</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/computer-lab.svg" alt="">
+                        <p class="mb-0">Computer Lab</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/canteen.svg" alt="">
+                        <p class="mb-0">Canteen</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/basketball-court.svg" alt="">
+                        <p class="mb-0">Basketball Court</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/soccer-field.svg" alt="">
+                        <p class="mb-0">Soccer Field</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/library.svg" alt="">
+                        <p class="mb-0">Library</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/swimming-pool.svg" alt="">
+                        <p class="mb-0">Swimming Pool</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/art-room.svg" alt="">
+                        <p class="mb-0">Art Room</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/3d-printer.svg" alt="">
+                        <p class="mb-0">3D Printer</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/mini-soccer.svg" alt="">
+                        <p class="mb-0">Mini Soccer Field</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/dance-room.svg" alt="">
+                        <p class="mb-0">Dance Room</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/athletic-field.svg" alt="">
+                        <p class="mb-0">Athletic Field</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/laboratorium.svg" alt="">
+                        <p class="mb-0">Laboratorium</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/music-room.svg" alt="">
+                        <p class="mb-0">Music Room</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/steam-cave.svg" alt="">
+                        <p class="mb-0">STEAM Cave</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 facillity-item">
+                    <div class="card-facillity">
+                        <img src="assets/icon/multi-hall.svg" alt="">
+                        <p class="mb-0">Multi Purpose Hall</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+    </main>
+
+    <footer class="mt-100 bg-purple text-white" style="border-top: 10px solid var(--my-red);">
+        <div class="container pt-5 pb-4">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 class="mb-4">Head Office</h2>
+                    <p>
+                        L’Avenue Campus <br>
+                        Jln. Raya Pasar Minggu, Kav. 16 <br>
+                        Pancoran, Jakarta 12780 <br>
+                    </p>
+                    <p>
+                        Need More Assistance?<br>
+                        (021) 50 22 234 / +62821 62 800 800
+                    </p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h2 class="mb-4">Menu</h2>
+                    <p>
+                        <a href="./home.html">Homepage</a></s> <br>
+                        <a href="https://www.sampoernaacademy.sch.id/en/faq/">FAQ</a> <br>
+                        <a href="https://sampoernaschoolssystem.com/en/jobs/">Career</a> <br>
+                        <a href="https://www.sampoernaacademy.sch.id/en/contact-us/">Contact Us</a> <br>
+                        <a href="https://www.sampoernaacademy.sch.id/en/privacy-policy/">Privay Policy</a> <br>
+                    </p>
+                </div>
+                <div class="col-lg-5 ">
+                    <h2 class="mb-4">Accredited By :</h2>
+                    <div class="row mb-4">
+                        <div class="col-6"><img class="w-100" src="assets/image/footer2.png" alt=""></div>
+                        <div class="col-6"><img class="w-100" src="assets/image/footer1.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <hr style="border: 1px solid white;">
+            <div class="row justify-content-between">
+                <div class="col-6">
+                    <img src="assets/icon/Copyright (1).svg" alt="">
+                    <span>2022 Sampoerna Academy. All Right Reserved</span>
+                </div>
+                <div class="col-6">
+                    <div class="text-end">
+                        <a style="text-decoration: none;" href="https://www.facebook.com/sampoernacademy">
+                            <img src="assets/icon/Facebook.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/sampoerna.academy">
+                            <img src="assets/icon/Instagram.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="https://twitter.com/sampoernacademy">
+                            <img src="assets/icon/Twitter.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;"
+                            href="https://www.youtube.com/channel/UC4jXamefYHy_9bd51m4qnKQ">
+                            <img src="assets/icon/Youtube.svg" alt="">
+                        </a>
+                        <a style="text-decoration: none;" href="">
+                            <img src="assets/icon/Linkedin.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+
+    <script src="assets/slick-1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.nav-slick').slick({
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true,
+                draggable: true,
+                infinite: false,
+                arrows: false,
+                initialSlide: 3
+            });
+            $('.slick-respon').slick({
+                dots: true,
+                slidesToShow: 1,
+                infinite: false,
+                variableWidth: true,
+                appendDots: $('.slick-respon-dot'),
+                appendArrows: $('.slick-respon-arrow'),
+            });
+        });
+    </script>
+</body>
+</body>
+
+</html>
