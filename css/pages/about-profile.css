@@ -1,3 +1,51 @@
+/* shared aboout-component */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+.txt-lg-justify {
+    text-align: justify;
+}
+
+/* end shared */
+
 .my-jumbotron {
     border-bottom: 18px solid var(--my-red);
     position: relative;
@@ -12,13 +60,192 @@
     bottom: 0;
 }
 
+.mask-jumbotron h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 30px;
+    text-align: start;
+}
+
+.mask-jumbotron .btn-back {
+    margin-left: 77px;
+}
+
+/* section card profile */
+.wrapper-content {
+    display: flex;
+    gap: 60px;
+    justify-content: start;
+}
+
+.card-profile {
+    padding: 43px;
+    height: 304px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.card-profile .image-wrapper {
+    width: 349px;
+}
+
+.card-profile .card-image {
+    position: absolute;
+    left: -50px;
+    bottom: 0;
+    height: 100%;
+}
+
+.card-profile .profile-name {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card-profile .profile-jabatan,
+.card-profile .profile-location {
+    font-size: 20px;
+}
+
+.profil-education,
+.card-education {
+    width: 292.26px;
+    font-size: 12px !important;
+}
+
+.profil-education h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.profil-education .card-education {
+    padding: 30px 22px;
+}
+
+/* .profil-text {
+    width: 656px;
+} */
+
+/* sosmed section */
+.wrapper-sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-sosmed .sosmed-item {
+    justify-content: center;
+    margin-bottom: 0;
+}
+
 /* mobile */
 @media screen and (max-width:991px) {
-    .img-profile {
-        width: 200px !important;
+
+    /* shared about-component */
+    h2 {
+        font-size: 25px;
     }
 
-    .card-body.detail-profile {
-        margin-top: 0 !important;
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 21px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
+    }
+
+    /* end shared-component */
+
+    .mask-jumbotron .btn-back {
+        margin-left: 21px;
+        padding-right: 35px;
+    }
+
+    /* section card-profile */
+    .wrapper-content {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .card-profile {
+        flex-wrap: wrap;
+        padding: 35px 25px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card-profile .profile-name {
+        font-size: 16px;
+        margin-block: 10px;
+    }
+
+    .profil-education,
+    .card-education {
+        width: 100%;
+    }
+
+    .card-profile .profile-location,
+    .card-profile .profile-jabatan {
+        display: inline;
+        font-size: 14px;
+    }
+
+    .card-profile .image-wrapper {
+        width: 100%;
+        height: 94px;
+        position: relative;
+    }
+
+    .card-profile .card-image {
+        width: 115px;
+        height: 94px;
+        top: 0;
+        left: -29px;
+    }
+
+    .profil-text {
+        font-size: 14px;
+    }
+
+    /* section sosmed */
+    .wrapper-sosmed {
+        justify-content: start;
+    }
+
+    .wrapper-sosmed .sosmed-item {
+        justify-content: start;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    .wrapper-sosmed .sosmed-item img {
+        width: 28px;
     }
 }

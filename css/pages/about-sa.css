@@ -1,0 +1,789 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+.txt-lg-justify {
+    text-align: justify;
+}
+
+/* end global */
+
+/* section sampoerna student */
+.wrapper-card-students {
+    display: flex;
+    gap: 45px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.wrapper-card-students .card-logo {
+    background-color: var(--my-purple);
+    padding: 46px 70px;
+    border-radius: 10px;
+}
+
+.wrapper-card-students .card-content {
+    padding: 46px 42px 46px 0px;
+}
+
+.wrapper-card-students .text-jumlah {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.wrapper-card-students .wrapper-country {
+    display: flex;
+    gap: 34px;
+    color: var(--my-purple);
+    font-size: 20px;
+}
+
+/* section Staff & Faculty at Sampoerna Academy */
+.wrapper-staff {
+    display: flex;
+    margin-inline: -4vw;
+    gap: 18px;
+}
+
+.wrapper-staff .circle-card {
+    background-color: white;
+    border-radius: 50%;
+    padding: 36px;
+    width: 227.82px;
+    height: 227.82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper-staff .circle-card>img {
+    width: 72px;
+}
+
+.wrapper-staff .circle-card .text-wrapper {
+    margin-top: 10px;
+    text-align: center;
+    /* color: var(--my-purple); */
+}
+
+.circle-card .text-wrapper * {
+    color: var(--my-purple);
+    font-size: 17px;
+}
+
+.circle-card .text-wrapper>b {
+    font-size: 27px;
+}
+
+/* section Technology at Sampoerna Academy */
+.wrapper-technology {
+    display: flex;
+    gap: 20px;
+    margin-top: 120px;
+}
+
+.wrapper-technology .card-technology {
+    background-color: var(--my-purple);
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-technology .card-icon {
+    background-color: white;
+    position: absolute;
+    padding: 27px;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-technology .card-content {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 101px 35px 21px 35px;
+    white-space: nowrap;
+}
+
+.card-technology .card-content b {
+    font-size: 40px;
+}
+
+/* section Number of Languanges Spoken */
+.section-languages {
+    background-color: var(--my-purple);
+    color: white;
+    padding-block: 50px;
+}
+
+.section-languages .card-white {
+    font-size: 30px;
+    background-color: white;
+    color: var(--my-purple);
+    font-weight: 400;
+    width: fit-content;
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.section-languages .section-container {
+    display: flex;
+    gap: 67px;
+}
+
+.section-languages .wrapper-img img {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-languages .wrapper-content p {
+    max-width: 466px;
+}
+
+.section-languages .wrapper-list {
+    display: flex;
+    width: 449px;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/*section Sampoerna Academy Superiority  */
+.wrapper-superiority {
+    display: flex;
+    gap: 14px;
+    margin-inline: -4vw;
+}
+
+.wrapper-superiority .card-superiorty {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.card-superiorty .card-img {
+    height: 300px;
+    width: 230px;
+}
+
+.card-superiorty .card-icon {
+    position: absolute;
+    padding: 10px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+}
+
+.card-superiorty b {
+    font-size: 29px;
+}
+
+.card-superiorty p {
+    font-size: 15px;
+}
+
+.card-superiorty .wrapper-content {
+    background-color: var(--my-purple);
+    color: white;
+    text-align: center;
+    padding: 20px 37px;
+    height: 191px;
+}
+
+.btn-learnmore {
+    font-size: 15px;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* section Sampoerna Academy's achievements */
+.section-academy-achievment {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-inline: -4vw;
+}
+
+.card-achievment {
+    max-width: 896px;
+    width: 100%;
+    background-color: var(--my-purple);
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.section-academy-achievment .slick-wrapper {
+    margin-right: -50px;
+}
+
+.section-academy-achievment .slick-respon {
+    width: 100%;
+}
+
+.card-achievment img {
+    border-radius: 10px;
+}
+
+
+/* section wmi */
+.card-wmi {
+    background: var(--my-purple);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.card-wmi .head {
+    display: flex;
+    gap: 50px;
+}
+
+.card-wmi .head>img {
+    width: 600px;
+    object-fit: cover;
+}
+
+.card-wmi .head-content {
+    padding-block: 54px;
+}
+
+.card-wmi .head-content .title {
+    gap: 34px;
+    align-items: center;
+}
+
+.card-wmi .head-content .list {
+    gap: 11px;
+    margin-top: 32px;
+}
+
+.card-wmi .card-outline-champ {
+    padding: 18px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.card-wmi .foot {
+    background-color: var(--my-red);
+    padding: 15px 40px;
+}
+
+.card-wmi .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-wmi .foot .filter {
+    display: flex;
+    gap: 20px;
+}
+
+.card-wmi .foot .filter .form-select {
+    width: fit-content;
+    background-color: transparent;
+    color: white;
+    background-image: url(../../assets/icon/arrow-down.svg);
+    padding-right: 80px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.card-wmi .filter .form-select option {
+    color: black;
+}
+
+/* card border */
+.wrapper-card-borders .col-lg-4 {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+.card-border {
+    border: 1px solid var(--my-purple);
+    display: flex;
+    gap: 20px;
+    padding: 22px 22px 42px 22px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.card-border img {
+    width: 73px;
+    height: 73px;
+}
+
+.card-border .title {
+    margin-bottom: 10px;
+    color: var(--my-purple);
+}
+
+.card-border .list-medals {
+    display: flex;
+    gap: 7px;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.card-border .list-medals p {
+    border-radius: 10px;
+    border: 1px solid var(--my-red);
+    padding: 5px 12px;
+    font-size: 11px;
+    color: var(--my-red);
+    margin-bottom: 0;
+}
+
+.btn-showmore {
+    width: 100%;
+    max-width: 397px;
+    margin-inline: auto;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+/* section University Acceptance */
+.section-univ-acc .wrapper-map {
+    background-color: var(--my-purple);
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.section-univ-acc .banner-country .form-select {
+    width: fit-content;
+    background-image: url(../../assets/icon/Polygon\ 1.svg);
+    color: var(--my-red);
+    padding-right: 73px;
+}
+
+.section-univ-acc .banner-country {
+    background-color: var(--my-red);
+    padding: 27px;
+}
+
+.section-univ-acc .banner-list {
+    background-color: white;
+    padding-top: 29px;
+    padding-bottom: 56px;
+}
+
+.section-univ-acc .wrapper-list {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width:1112px) {
+    .wrapper-card-students .wrapper-country {
+        font-size: 16px;
+    }
+
+    .wrapper-staff .circle-card {
+        width: 201px;
+        height: 201px;
+    }
+
+    .circle-card .text-wrapper * {
+        font-size: 16px;
+    }
+
+    .circle-card .text-wrapper>b {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    /* global */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 21px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
+    }
+
+    /* end global */
+
+    /* section sampoerna student */
+    .wrapper-card-students {
+        margin-inline: -21px;
+        gap: 0px;
+        padding: 35px 20px;
+        background-color: var(--my-purple);
+        border-radius: 0;
+    }
+
+    .wrapper-card-students .card-logo {
+        padding: 12px;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .wrapper-card-students .card-logo img {
+        width: 70px;
+        position: absolute;
+    }
+
+    .wrapper-card-students .card-content {
+        padding: 0;
+    }
+
+    .wrapper-card-students .card-content * {
+        color: white;
+    }
+
+    .wrapper-card-students .wrapper-content {
+        margin-left: 85px;
+        margin-top: 13px;
+    }
+
+    .wrapper-card-students .card-content .wrapper-content h5 {
+        font-size: 18px;
+    }
+
+    .wrapper-card-students .card-content .text-jumlah {
+        font-size: 16px;
+    }
+
+    .wrapper-card-students .text-jumlah.mt-30 {
+        margin-top: 15px;
+    }
+
+    .wrapper-country {
+        flex-wrap: wrap;
+        gap: 7px !important;
+    }
+
+    .wrapper-country p {
+        color: var(--my-red) !important;
+        background-color: white;
+        border-radius: 10px;
+        padding: 18px 15px;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    /* section Staff & Faculty at Sampoerna Academy */
+    .section-staff {
+        margin-top: -1px;
+        background-color: var(--my-purple);
+        padding-block: 42px;
+    }
+
+    .section-staff hr.just-mobile {
+        color: white;
+        margin-top: 0;
+        margin-bottom: 42px;
+    }
+
+    .section-staff>h2 {
+        color: white;
+    }
+
+    .wrapper-staff {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .wrapper-staff .circle-card {
+        width: fit-content;
+        height: fit-content;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .wrapper-staff .circle-card>img {
+        filter: brightness(99);
+        width: 66px;
+        height: 66px;
+    }
+
+    .wrapper-staff .circle-card .text-wrapper>* {
+        color: white;
+    }
+
+    .wrapper-staff .circle-card .text-wrapper>b {
+        font-size: 24px;
+    }
+
+    /* Technology at Sampoerna Academy */
+    .wrapper-technology {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .wrapper-technology .card-technology {
+        width: 100%;
+    }
+
+    .wrapper-technology .card-content {
+        width: 100%;
+        white-space: normal;
+    }
+
+    /* section Number of Languanges Spoken */
+    .section-languages .section-container {
+        flex-wrap: wrap-reverse;
+    }
+
+    .section-languages .wrapper-content {
+        width: 100%;
+    }
+
+    .section-languages .wrapper-list {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .section-languages .card-white {
+        font-size: 16px;
+    }
+
+    /* section Sampoerna Academy Superiority */
+
+    .wrapper-superiority {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-inline: 0;
+    }
+
+    .card-superiorty {
+        height: 216px !important;
+        width: 100% !important;
+    }
+
+    .card-superiorty .card-icon {
+        background-color: transparent;
+        z-index: 2;
+        height: 45px;
+        width: 45px;
+    }
+
+    .card-superiorty .card-img {
+        filter: brightness(0.9);
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card-superiorty .wrapper-content {
+        position: absolute;
+        bottom: 0;
+        background-color: transparent;
+        left: 0;
+        right: 0;
+        height: fit-content;
+    }
+
+    .card-superiorty b {
+        font-size: 35px;
+    }
+
+    .card-superiorty p {
+        font-size: 16px;
+    }
+
+
+    .section-academy-achievment {
+        background: transparent;
+        padding: 0;
+        margin-inline: 0;
+    }
+
+    .card-achievment {
+        max-width: 280px;
+        padding: 20px;
+    }
+
+    .card-achievment img {
+        width: 100%;
+    }
+
+    .card-achievment p {
+        font-size: 14px;
+    }
+
+    .section-academy-achievment .slick-wrapper {
+        margin-right: 0px;
+    }
+
+    /* wmi */
+    .card-wmi .head {
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+
+    .card-wmi .head>img {
+        width: 100%;
+    }
+
+    .card-wmi .head-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .card-wmi .head-content .title {
+        width: 100%;
+    }
+
+    .card-wmi .head-content .title>img {
+        width: 77px;
+    }
+
+    .card-wmi .head-content .title>h3 {
+        font-size: 14px;
+    }
+
+    .card-wmi .head-content .list {
+        flex-wrap: wrap;
+        margin-top: 15px;
+        padding: 0;
+    }
+
+    .card-wmi .list .card-outline-champ {
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 12px;
+        padding: 10px 8px;
+        margin-bottom: 20px;
+    }
+
+    .card-wmi .foot {
+        flex-wrap: wrap;
+        padding-inline: 22px;
+    }
+
+    .card-wmi .foot .filter {
+
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    /* card-border */
+    .wrapper-card-borders .col-lg-4 {
+        margin-bottom: 10px;
+    }
+
+    .card-border {
+        background-color: white;
+        border: none;
+    }
+
+    .card-border>img {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* section University Acceptance*/
+    .section-univ-acc .wrapper-map img {
+        width: 100%;
+    }
+
+    .section-univ-acc .banner-country .section-container {
+        padding: 0;
+    }
+
+    .section-univ-acc .banner-country .form-select {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .section-univ-acc .wrapper-list {
+        flex-wrap: wrap;
+    }
+}
