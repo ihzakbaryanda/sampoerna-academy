@@ -70,6 +70,37 @@ h1 {
     max-width: 1230px;
 }
 
+.accordion-header  .collapsed span{
+    color: var(--my-red);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.pagination li {
+    margin: 0 10px;
+}
+
+.pagination li a {
+    background: none;
+    border: none;
+    color: var(--my-purple);
+    border-radius: 8px;
+}
+
+#news-pagination {
+    display: grid;
+    place-items: center;
+}
+
+.pagination li a:hover,
+.pagination li a.active {
+    background-color: var(--my-purple);
+    border-radius: 8px;
+    color: white;
+}
+
 @media screen and (max-width:991px) {
     .dropdown .dropdown-menu {
         margin-top: 1px;
@@ -86,13 +117,15 @@ h1 {
 }
 
 @media screen and (max-width:1200px) {
-  .navbar .navbar-nav a{
-   font-size: .8em;
+  .navbar .navbar-nav a,
+  .navbar .dropdown-item{
+   font-size: .8em !important;
   }
 }
 
 @media screen and (max-width:1050px) {
-    .navbar .navbar-nav a{
-     font-size: .7em;
+    .navbar .navbar-nav a,
+    .navbar .dropdown-item{
+     font-size: .7em !important;
     }
   }
