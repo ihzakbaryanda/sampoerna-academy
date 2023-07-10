@@ -24,7 +24,7 @@
         "test",
         "tests",
         "package.json",
-        "index.html"
+        "https://www.sampoernaacademy.sch.id/en/home-latest/"
     ],
     "dependencies": {
         "jquery": ">=1.7"

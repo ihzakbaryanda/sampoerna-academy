@@ -1,0 +1,238 @@
+.my-jumbotron .bg-purple .container {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.my-jumbotron h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.my-jumbotron .bg-purple .container div:first-child {
+    border-right: 1px solid white;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+.my-jumbotron .bg-purple .container div:first-child p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.my-jumbotron .bg-purple .container div:last-child ul {
+    height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 10px;
+    display: flex;
+    background-color: white;
+    color: var(--my-purple);
+    gap: 10px;
+    align-items: center;
+    padding: 5px 35px;
+    justify-content: space-between;
+}
+
+#campus-description img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#academy-grade {
+    width: 1212px;
+    height: 234px;
+    border-radius: 10px;
+    padding: 50px 0 70px 102px;
+    background-color: white;
+    margin: 80px auto;
+}
+
+#academy-grade p,
+#facillities .container>p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#academy-grade ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+#academy-grade ul li {
+    list-style-type: none;
+    background-color: var(--my-purple);
+    height: 83px;
+    padding: 15px 50px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    width: 214px;
+}
+
+#campus-facillities {
+    border-bottom: 1px solid black;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#campus-facillities ul {
+    display: flex;
+    justify-content: center;
+}
+
+#campus-facillities ul li {
+    color: white;
+    width: 494px;
+    overflow: hidden;
+    background-color: var(--my-purple);
+    border-radius: 10px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#campus-facillities ul li div {
+    padding: 30px 48px ;
+}
+
+#campus-facillities ul li div * {
+    font-weight: 400;
+}
+
+#campus-facillities ul li div h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+#campus-location p:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#campus-location hr {
+    margin-bottom: 80px;
+}
+
+#campus-location iframe {
+    width: 100%;
+    height: 329px;
+    border-radius: 10px;
+}
+
+#campus-location {
+    margin-bottom: 72px !important;
+}
+
+#campus-location img {
+    width: 100%;
+}
+
+#campus-location button {
+    width: 222px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+
+#campus-facillities ul li div p {
+    font-size: 16px;
+}
+
+.my-jumbotron .bg-purple .container div:last-child p {
+    font-size: 16px;
+}
+
+
+#about-sampoerna-academy h2 {
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#about-sampoerna-academy .about-academy-content {
+    display: flex;
+}
+
+#about-sampoerna-academy .about-academy-content img {
+    width: 396px !important;
+    height: 473px;
+    margin-right: 50px;
+}
+
+/* mobile */
+@media screen and (max-width:991px) {
+    body {
+        overflow-x: hidden;
+    }
+    .my-jumbotron h5 {
+        font-size: 14px;
+    }
+
+    .my-jumbotron h2 {
+        font-size: 16px;
+    }
+
+    .my-jumbotron ul {
+        display: none !important;
+    }
+
+    .my-jumbotron .bg-purple .container {
+        display: block !important;
+    }
+
+    .my-jumbotron .bg-purple .container  > div:first-child {
+        border: none;
+        border-bottom: 1px solid white;
+        margin-bottom: 30px;
+    }
+
+    #academy-grade {
+        width: 100%;
+        padding-left: 30px;
+    }
+
+    #academy-grade ul,
+    #campus-facillities ul{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #academy-grade ul li {
+        width: 90%;
+    }
+
+    #academy-grade {
+        height: auto;
+    }
+
+    #campus-facillities ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #campus-location .d-flex{
+        display: block !important;
+    }
+
+    #campus-location .d-flex .w-50,
+    iframe {
+        width: 98% !important;
+    }
+
+
+    #campus-facillities ul li img {
+        width: 100%;
+    }
+    .core-belief .card {
+        padding: 0 !important;
+        background-color: transparent;
+    }
+}
