@@ -1,0 +1,221 @@
+/* global */
+h2 {
+    font-size: 35px;
+}
+
+.btn-cta {
+    padding-block: 13px;
+    padding-inline: 17px;
+    height: fit-content;
+}
+
+.btn-cta span {
+    font-size: 12px;
+}
+
+.section-container {
+    padding-inline: 5vw;
+    max-width: 1230px;
+    margin-inline: auto;
+}
+
+.jumbotron-banner {
+    padding-block: 30px;
+    padding-inline: 78px;
+}
+
+.my-jumbotron .subtitle {
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.my-jumbotron .title {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.pill-navigation {
+    margin-block: 40px;
+}
+
+.txt-lg-justify {
+    text-align: justify;
+}
+
+/* end global */
+
+/* section school building */
+.card-building {
+    width: 281px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.card-building .card-content {
+    padding-inline: 35px;
+    padding-block: 30px;
+}
+
+/* section facilities 6 academy */
+.card-facillity {
+    background-color: var(--my-purple);
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    height: 100%;
+}
+
+.facillity-item {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+.card-facillity>p {
+    font-size: 22px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* end 6 academy */
+/* section CTA */
+.cta-wrapper {
+    gap: 20px;
+}
+
+@media screen and (max-width:991px) {
+
+    /* global */
+    h2 {
+        font-size: 25px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    .section-container {
+        padding-inline: 21px;
+    }
+
+    .mt-80 {
+        margin-top: 60px;
+    }
+
+    .jumbotron-banner {
+        padding-inline: 25px !important;
+        padding-block: 17px !important;
+    }
+
+    .my-jumbotron .subtitle {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+
+    .my-jumbotron .title {
+        font-size: 16px;
+    }
+
+    .pill-navigation {
+        margin-block: 20px;
+    }
+
+    .txt-lg-justify {
+        text-align: start;
+    }
+
+    /* end global */
+
+
+
+
+    /* section school building */
+    .card-building {
+        width: 192px;
+        margin-right: 13.5px;
+    }
+
+    .card-building .card-content {
+        padding: 24px;
+    }
+
+    .card-building .card-content h5 {
+        font-size: 14px;
+
+    }
+
+    /* section 6 academy */
+    .facillity-item {
+        padding-inline: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-facillity>p {
+        font-size: 16px;
+    }
+
+    /* end 6 academy */
+    /* section CTA */
+    .cta-wrapper {
+        justify-content: start !important;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+}
+
+
+
+/* slick caorusel custom */
+.slick-wrapper {
+    position: relative;
+}
+
+.slick-respon {
+    margin-right: -5vw;
+}
+
+.slick-nav {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+}
+
+.slick-dots {
+    display: flex;
+    left: 300px;
+    width: fit-content;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-respon-arrow {
+    position: absolute;
+    right: 300px;
+    width: 25px;
+}
+
+.slick-prev:before {
+    content: url('../../assets/icon/arrow-left-purple.svg');
+}
+
+.slick-next:before {
+    content: url('../../assets/icon/arrow-right-purple.svg');
+}
+
+@media screen and (max-width:991px) {
+    .slick-dots {
+        left: 0;
+    }
+
+    .slick-respon-arrow {
+        right: 33px;
+    }
+}
