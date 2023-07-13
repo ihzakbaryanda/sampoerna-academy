@@ -24,6 +24,11 @@
     margin-right: 20px;
 }
 
+#news-post a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--my-red);
+}
+
 @media screen and (max-width:991px) {
     #news-post .bg-white {
         width: 45%;
