@@ -101,6 +101,10 @@ h1 {
     color: white;
 }
 
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
 @media screen and (max-width:991px) {
     .dropdown .dropdown-menu {
         margin-top: 1px;
